@@ -1,57 +1,64 @@
-# - name: Université Côte d'Azur
-#   img: UCA2.png
-#   website: http://univ-cotedazur.fr/fr
-#   alt: Université Côte d'Azur
+- name: Artificial Intelligence
+  img: AIJ-cover.jpeg
+  website: https://aij.ijcai.org/
+  alt: Artificial Intelligence Journal
 
-#- name: Université Nice Sophia-Antipolis
-#  img: uns.png
-#  website: http://unice.fr/
-#  alt: Université Nice Sophia-Antipolis
+- name: ACP
+  img: acp.png
+  website: https://www.a4cp.org/
+  alt: Association for Constraint Programming
 
-# - name: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
-#   img: i3s.png
-#   website: http://i3s.unice.fr/
-#   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
+- name: CNRS
+  img: cnrs.png
+  website: https://www.cnrs.fr/fr
+  alt: Centre National de la Recherche Scientifique
 
-#- name: Huawei
-#  img: huawei.png
-#  website: https://www.huawei.com/fr/
-#  alt: Huawei Technologies Co. Ltd.
+- name: MIAI
+  img: logoMIAI-rvb.png
+  website: https://miai.univ-grenoble-alpes.fr/
+  alt: Multidisciplinary Institute in Artificial Intelligence
+
+- name: Persyval
+  img: persyval.png
+  website: https://persyval-lab.org/
+  alt: PERSYVAL-lab (Pervasive Systems and Algorithms)
+
+- name: GrenobleINP
+  img: Grenoble_INP.png
+  website: https://www.grenoble-inp.fr/
+  alt: Grenoble INP - UGA
+
+- name: UGA
+  img: Logo_Université_Grenoble_Alpes_2020.png
+  website: https://www.univ-grenoble-alpes.fr/
+  alt: Université Grenoble Alpes
+
+- name: GDR RADIA
+  img: GDR-RADIA-logo.png
+  website: https://gdr-radia.cnrs.fr/
+  alt: Groupe de Recherche en Intelligence Artificielle
+
+- name: GDR RO
+  img: logoGDRRO_LQ.png
+  website: http://gdrro.lip6.fr/
+  alt: GDR Recherche Opérationnelle
+
+- name: ROADEF
+  img: LOGO_ROADEF.png
+  website: https://www.roadef.org/
+  alt: Société française de recherche opérationnelle et d'aide à la décision
 
 - name: AFPC
   img: afpc.png
   website: https://www.afpc-asso.org/
   alt: Association Française pour la Programmation par Contraintes
 
-- name: ACP
-  img: acp.jpeg
-  website: https://www.a4cp.org/
-  alt: Association for Constraint Programming
 
-#- name: GDR RO
-#  img: gdrro.png
-#  website: http://gdrro.lip6.fr/
-#  alt: GDR Recherche Opérationnelle
-
-#- name: INRIA
-#  img: inria.png
-#  website: https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee
-
-#- name: Doriane
-#  img: doriane.png
-#  website: https://www.doriane.com/
-#  alt: Doriane - Research Software & Consulting
 
 #- name: Michelin
 #  img: michelin.png
 #  website: https://www.michelin.fr/
 #  alt: Michelin France - Pneus et services pour une mobilité durable
-
-#- name: GDR IA
-#  img: gdria.png
-#  website: https://www.gdria.fr/
-#  alt: Groupe de Recherche en Intelligence Artificielle
-#  style: "background: url(/jfpc_jiaf_2020/images/sponsor/gdria-fond.png); background-size: contain;"
 
 #- name: AFIA
 #  img: afia.png
