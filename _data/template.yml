@@ -1,0 +1,11 @@
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 222f3e
+  secondary: 2e86de
+  tertiary: 4c6a99
+  muted: 777
+
+  # Font Families
+font:
+  primary: '"Oswald", sans-serif'
+  secondary: '"Open Sans", sans-serif'

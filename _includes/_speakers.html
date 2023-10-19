@@ -1,0 +1,41 @@
+<!-- Portfolio Grid Section -->
+    <section id="speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Invited speakers</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="speakers-item">
+                    {% for post in site.data.speakers %}
+                        {% assign r = forloop.index | modulo: 2 %}
+                        {% if r == 0 %}
+                        <li class="speaker-inverted">
+                        {% else %}
+                        <li>
+                        {% endif %}
+                            <div class="speaker-image">
+                                <a href="#{{ post.id }}" class="speakers-link" data-toggle="modal">
+                                    <div class="speakers-hover">
+                                        <div class="speakers-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="{{ site.url | append:site.baseurl }}/images/speakers/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                </a>
+                            </div>
+                            <div class="speaker-detail">
+                                <div class="speaker-name">{{ post.firstname }}</div>
+                                <div class="speaker-name">{{ post.name }}</div>
+                                <div class="speaker-title">{{ post.title }}</div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>

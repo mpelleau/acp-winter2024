@@ -1,0 +1,43 @@
+title: "ACP Winter School 2024"
+shorttitle: "ACP winter 2024"
+date: "March 25-29, 2024"
+location: "Aussois<br>Centre Paul Langevin"
+description: "ACP Winter School 2024, March 25-29, Aussois, France"
+baseurl: "/ACP_winter_2024" # the subpath of your site, e.g. /blog
+url: "https://www.i3s.unice.fr"
+
+facebook:
+  app_id: 
+
+logo: "assets/img/favicon.png"
+
+language: 'fr'
+
+include: ['_pages']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github fa-lg
+    url: https://github.com/mpelleau/acp-winter2024
+  # - title: twitter
+  #   url: https://twitter.com
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+sass:
+  sass_dir: _sass
+  style: :expanded
+  line_numbers: true
+  sourcemap: always
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - INSTALL.md

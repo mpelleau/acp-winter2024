@@ -1,0 +1,6 @@
+
+{% assign dates = include.dates %}
+
+{% for date in dates -%}
+  - {{ date.title }} {% if date.info -%} <span style="font-size:0.75em;">{{ date.info }} </span>{% endif -%} : {% if date.olddate -%} <tl-old>{{ date.olddate }} </tl-old>{% endif -%}{{ date.date }}
+{% endfor %}

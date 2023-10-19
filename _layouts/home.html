@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
+
+    {% include _head.html %}
+
+
+    <body id="page-top" class="index" ondragstart="return false;" ondrop="return false;">
+
+        {% include navigation_bar navigation = site.data.navigation home = true %}
+
+    <!-- Header -->
+    {% if page.image %}
+    <header class = "image" style="background-image: url('{{ site.url | append:site.baseurl }}/images/{{ page.image }}');">
+    {% else %}
+    <header class = "image" style="background-image: url('{{ site.url | append:site.baseurl }}/images/header-home.jpg');">
+    {% endif %}
+        <div class="container">
+            <div class="intro-text">
+                {% if page.title %}
+                    <div class="intro-heading">{{ page.title }}</div>
+                {% else %}
+                    <div class="intro-heading">{{ site.title }}</div>
+                {% endif %}
+                    <ul class="home">
+                        <li><a class="btn btn-xl" href="{{ site.url | append:site.baseurl }}/inscription/">REGISTRATION</a></li>
+                        <!-- <li><a class="btn btn-xl" href="https://ci.mines-stetienne.fr/pfia2022/conferences/jfpc/">À l'année prochaine</a></li> 
+                        <li><a class="btn btn-xl" href="https://univ-cotedazur.zoom.us/s/89766294247">ZOOM</a></br>
+                            <a class="btn" style="font-size:14px" href="{{ site.url | append:site.baseurl }}/connexions/">Besoin d'aide avec Zoom ou Gather Town ?</a>-->
+                            <!-- </br></br>
+                                 <a class="btn btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSeeOQuEbyIVT1dpxdZzQpe5Z0SE68uG5d0ntRY4KXHLUuHVBQ/viewform?usp=sf_link">PRIX JEUNE CHERCHEUR</a> -->
+                        </li>
+                        <li><div class="intro-lead-in">{{ site.date }}<br>{% if site.oldlocation %}<loc-old>{{ site.oldlocation }}</loc-old><br>{% endif %}{{ site.location }}</div></li>
+                    </ul>
+            </div>
+        </div>
+    </header>
+    <script src="{{ "/css/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+    {% include _plan.html links = site.data.sitemap %}
+
+    {% include _speakers.html %}
+    {% include _speakers_info.html %}
+
+    {% include _sponsors.html %}
+    {% include _footer.html %}
+
+    </body>
+</html>

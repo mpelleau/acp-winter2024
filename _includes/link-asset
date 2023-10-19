@@ -1,0 +1,10 @@
+{% comment %}
+*   
+*   This include lets you retrieve the path to an asset related to a page.
+*   
+*   The asset paramater usually is a filename.  
+*
+*   Example: {% include link-asset asset='foo.jpg' %}
+*   
+{% endcomment %}
+{{ "/assets" | relative_url | append:page.url | append:include.asset }}

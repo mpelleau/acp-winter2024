@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
+
+  {% include _head.html %}
+  
+  <body ondragstart="return false;" ondrop="return false;">
+    {% if page.conference %} 
+        {% include navigation_bar navigation = site.data.navigation_conf link = page.link %}
+    {% else %}
+        {% include navigation_bar navigation = site.data.navigation %}
+    {% endif %}
+    <div class="event black-frame">
+        {% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+        <h1>{{ page.title }}</h1>
+        
+        {{ content }}
+    </div>
+  </body>
+  {% include _footer.html %}
+</html>

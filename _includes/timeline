@@ -1,0 +1,24 @@
+
+{% assign dates = include.dates %}
+
+<ul class="timeline">
+{%- for date in dates -%}
+    {%- assign r = forloop.index | modulo: 2 %}
+    {%- if r == 1 %}
+    <li>
+    {%- else %}
+    <li class="timeline-inverted">
+    {%- endif %}
+        <div class="tl-circ"></div>
+        <div class="timeline-panel">
+            <div class="tl-heading">
+                <session-title>{{ date.title }}{% if date.plus %}{{ date.plus }}{% endif %}</session-title>
+                {% if date.info -%}<session-room style="color: var(--muted);">{{ date.info }}</session-room>{% endif %}
+            </div>
+        </div>
+        <div class="timeline-date">
+            <div class="tl-cal">{% if date.olddate %}<tl-old>{{ date.olddate }}</tl-old> {% endif %}{{ date.date }}</div>
+        </div>
+    </li>
+{%- endfor %}
+</ul>

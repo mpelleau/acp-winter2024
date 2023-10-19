@@ -1,0 +1,59 @@
+@import "colors";
+@import "fonts";
+
+form {
+    .well {
+        background-color: $light-color;
+    }
+}
+
+label {
+    font-family: $primary-font;
+    color: $primary-color;
+    &.required::after {
+        color: $alert-color;
+        content: " *";
+    }
+}
+
+day {
+    font-family: $primary-font;
+    color: $secondary-color;
+}
+
+error {
+    font-family: $primary-font;
+    color: $alert-color;
+}
+
+textarea.form-control {
+    min-height: 2.5em;
+}
+
+@media (max-width: 1440px) {
+    textarea.form-control {
+        min-height: 5.5em;
+    }
+}
+
+@media (max-width: 1024px) {
+    textarea.form-control {
+        min-height: 8.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    textarea.form-control {
+        min-height: 5.5em;
+    }
+}
+
+.btn {
+    color: white !important;
+    background-color: $tertiary-color;
+    border-color: $tertiary-color;
+}
+
+.btn:hover {
+    background-color: $primary-color;
+}

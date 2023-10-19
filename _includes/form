@@ -1,0 +1,83 @@
+
+
+<!-- Formulaire -->
+<!-- Form Events -->
+<script src="{{ site.url }}{{ site.baseurl }}/css/js/inscription.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<form method="POST" id="inscription" class="well form-horizontal">
+    <fieldset>
+        {% for field in site.data.inscription %}
+        <div class="form-group" id={{ field.id | append:"_div" }} {% if field.hide %}style="display: none;"{% endif %}>
+            <label class="col-md-4 control-label{% if field.required %} required{% endif %}">{{ field.champ }}</label>  
+            <div class="col-md-6 inputGroupContainer,input-group">
+            {%- assign info = field.champ %}
+            {%- if field.info %}
+                {%- assign info = field.info %}
+            {%- endif %}
+            {%- if field.text %}
+                <textarea id="{{ field.id }}" placeholder="{{ info }}" class="form-control"></textarea>
+            {%- elsif field.choices %}
+                <select id="{{ field.id }}">
+                {% for choice in field.choices %}
+                    <option value="{{ choice }}">{{ choice }}</option>
+                {% endfor %}
+                </select>
+            {%- else %}
+                <input  id="{{ field.id }}" placeholder="{{ info }}" class="form-control" type="text">
+            {%- endif %}
+            {%- if field.error -%}
+                {% for error in field.error %}
+                    {%- if forloop.index == 1%}
+                <error id="{{ field.id | append:"_err" }}" class="hide">{{ error }}</error>
+                    {%- else %}
+                <error id="{{ field.id | append:"_err" | append:forloop.index }}" class="hide">{{ error }}</error>
+                    {%- endif %}
+                {%- endfor %}
+            {%- endif %}
+            </div>
+        </div>
+        {% endfor %}
+        
+        {% comment %}
+        <div class="form-group" id="sessions">
+            <label class="col-md-4 control-label">À quelles sessions pensez-vous participer ?</label>
+            <div class="col-md-6">
+                {%- for agenda in site.data.programme %}
+                <day>{{ agenda.day }}</day>
+                    {%- for session in agenda.sessions -%}
+                        {%- unless session.notinform %}
+                <div class="checkbox">
+                    <input type="checkbox" name="session" value="{{ agenda.day | split:" " | first | append:"_" | append:session.time }}" /> {{ session.time | append:" - " | append:session.title}}
+                </div>
+                        {%- endunless %}
+                    {%- endfor %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endcomment %}
+
+        <!-- Pour les bots -->
+        <input type="text" name="gotcha" style="display:none" />
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label"></label>
+            <div class="col-md-6">
+                <button type="submit" class="btn" >S'inscrire <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+
+        <div id="success" class="hide">
+            <h3>Merci ! Votre inscription a été prise en compte.</h3>
+            Un email de confirmation devrait vous être envoyé dans les 24h (vérifiez vos pourriels).
+        </div>
+
+        <div id="error" class="hide">
+            <error style="font-size: 1.17em;">
+                <i class="fas fa-exclamation-triangle"></i> Votre inscription n'a pas été prise en compte.
+            </error>
+        </div>
+
+    </fieldset>
+</form>

@@ -1,0 +1,218 @@
+@import "colors";
+@import "fonts";
+
+.programme {
+    margin: 10px 0px;
+    font-family: $primary-font;
+    .days {
+        padding: 0;
+        width: 100%;
+        .programme-jour {
+            display: inline-block;
+            width: 29%;
+            cursor: pointer;
+            background: white;
+            color: $light-color;
+            border: 1px solid $light-color;
+            margin: 2%;
+            text-align: center;
+            &.active {
+                background: $primary-color;
+                color: white;
+                border: 2px solid $primary-color;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &:hover{
+                background: $secondary-color;
+            }
+
+        }
+    }
+    .timeline {
+        &.show {
+            display: block;
+        }
+        &.hide {
+            display: none;
+        }
+    }
+}
+
+.anchor { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: 101px; 
+    margin-top: -101px;
+}
+
+.talks {
+    li {
+        position: relative;
+        padding: 0;
+        list-style-type: disc;
+        color: $tertiary-color;
+        &::before, &::after {
+            content: " ";
+            display: table;
+        }
+        &::after {
+            clear: both;
+        }
+    }
+    dt {
+        float: left;
+        width: 15%;
+        position: relative;
+        padding: 0;
+        color: $tertiary-color;
+        &::before, &::after {
+            content: " ";
+            display: table;
+        }
+        &::after {
+            clear: both;
+        }
+    }
+    dd {
+        float: left;
+        width: 85%;
+    }
+}
+
+b {
+    color: $secondary-color;
+    font-weight: 700;
+}
+
+session-title {
+    color: $primary-color;
+    display: block;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-author {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+session-room {
+    color: red;
+    display: block;
+    font-family: $primary-font;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-info {
+    display: block;
+    color: $muted-color;
+    margin-top: 1.5em;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+session-chair {
+    display: block;
+    color: $muted-color;
+    font-family: $primary-font;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-chair-name {
+    font-weight: bold;
+    color: $primary-color;
+}
+
+session-talk-title {
+    display: block;
+    color: $tertiary-color;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+session-talk {
+    display: block;
+    color: $primary-color;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+table {
+    th, td {
+        text-align: center !important;
+        background-color: white;
+        border: 2px solid white !important;
+        padding: 0 !important;
+        a {
+            color: $primary-color !important;
+            text-decoration: unset;
+            &:hover {
+                color: $primary-color !important;
+            }
+        }
+    }
+    tr {
+        height: 1.5em !important;
+        &:hover{
+            .hour {
+                color: red !important;
+                font-weight: bolder;
+            }
+        }
+    }
+    .day {
+        color: $primary-color;
+    }
+    .hour {
+        vertical-align: top;
+        font-size: 0.8em;
+    }
+    .break {
+        background-color: $line-color;
+    }
+    .invite, .invite a, .invite a:hover {
+        background-color: $secondary-color;
+        color: white !important;
+        font-weight: bolder;
+    }
+    .session-young {
+        background-color: #3ec8ff;
+    }
+    .session {
+        background-color: #4BC6B9;
+    }
+    .ag {
+        background-color: #9afd9a;
+    }
+    .coffee {
+        background-color: #ffefd3;
+    }
+    .apero {
+        background-color: #ffc167;
+    }
+    .debat {
+        background-color: #ffe867;
+    }
+}
+
+@media (max-width: 1024px) {
+    .programme-jour {
+        width: 28% !important;
+    }
+}

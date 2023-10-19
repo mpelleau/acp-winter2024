@@ -1,0 +1,39 @@
+- champ: Nom
+  id: lname
+  required: true
+  error: 
+    - "Entrez votre nom"
+- champ: Prénom
+  id: fname
+  required: true
+  error: 
+    - "Entrez votre prénom"
+- champ: Email
+  id: replyto
+  required: true
+  error: 
+    - "Entrez votre adresse email"
+    - "Entrez une adresse email valide"
+- champ: Institution
+  id: institution
+  required: true
+  error: 
+    - "Entrez votre institution / société"
+- champ: Fonction
+  id: fonction
+  choices:
+    - Enseignant(e)-chercheur(se)
+    - Chercheur(se)
+    - Doctorant(e)
+    - Étudiant(e) en Master
+    - R&D
+    - Autre
+- champ: Adresse de livraison
+  id: adresse
+  text: true
+#  info: "Les inscription réalisées avant le 10 juin pourront bénéficier d'un cadeau surprise (dans la limite des stocks)."
+- champ: "Complément d'adresse"
+  id: "comp"
+  text: true
+  hide: true
+#  info: "Mettez les informations les plus précises possibles (digicode, bâtiment, numéro de téléphone, ...) pour que le facteur vous trouve."

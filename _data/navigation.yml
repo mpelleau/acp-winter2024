@@ -1,0 +1,23 @@
+- title: "Programme"
+  url: "agenda/"
+  side: left
+
+- title: "Committee"
+  url: "team/"
+  side: left
+
+- title: "Registration"
+  url: "registration/"
+  side: right
+
+- title: "About"
+  url: "about/"
+  side: right
+
+- title: "Venue"
+  url: "venue/"
+  side: right
+
+- title: "Sponsors"
+  url: "sponsors/"
+  side: right

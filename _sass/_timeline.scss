@@ -1,0 +1,222 @@
+@import "colors";
+@import "fonts";
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+    &::before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 2px;
+        background-color: $line-color;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+    p {
+        hyphens: none;
+    }
+    li {
+        padding: 30px 0px;
+        position: relative;
+        &before, &::after {
+            content: " ";
+            display: table;
+        }
+        &::after {
+            clear: both;
+        }
+        .timeline-panel {
+            width: calc(40% - 12px);
+            float: left;
+            background: $event-background-color;
+            color: $event-color;
+            border: 2px solid white;
+            padding: 30px 20px;
+            position: relative;
+            margin-left: 5%;
+        }
+        .timeline-date {
+            max-width: calc(30% - 12px);
+            float: left;
+            background: $date-background-color;
+            color: $date-color;
+            border: 2px solid white;
+            padding: 5px 20px;
+            position: relative;
+            margin-left: 15%;
+            margin-right: auto;
+            margin-top: 22px;
+        }
+        &.timeline-inverted {
+            .timeline-panel {
+                float: right;
+                background-color: $inverted-event-background-color;
+                color: $inverted-event-color;
+                border-color: white;
+                margin-right: 5%;
+            }
+            .timeline-date {
+                float: right;
+                background: $inverted-date-background-color;
+                color: $inverted-date-color;
+                border-color: white;
+                margin-right: 10%;
+                margin-left: auto;
+            }
+        }
+        .tl-circ {
+            position: absolute;
+            top: 64px;
+            left: 50%;
+            text-align: center;
+            width: 24px;
+            height: 24px;
+            line-height: 12px;
+            margin-left: -12px;
+            z-index: 1;
+            background-color: white;
+            a {
+                color: $circle-color;
+                font-size: .8em;
+                &:hover {
+                    color: $circle-color;
+                }
+            }
+        }
+    }
+}
+
+.tl-heading {
+    text-align: left;
+    color: $date-background-color;
+    font-weight: bolder;
+}
+
+.tl-body {
+    p, ul {
+        margin-bottom: 0;
+    }
+    & > p + p {
+        margin-top: 5px;
+    }
+}
+
+.tl-info {
+    color: $secondary-color;
+    font-family: $primary-font;
+}
+
+.tl-cal {
+    margin: 0;
+    color: $date-color !important;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: $primary-font;
+    &::before {
+        font-size: .8em;
+        font-family: 'FontAwesome';
+        content: "\f017";
+        padding-left: 0em;
+        padding-right: .5em;
+    }
+}
+
+tl-old {
+    text-decoration: line-through;
+    font-size: .9em;
+}
+
+/** media queries **/
+@media (max-width: 992px) {
+    .timeline {
+        li {
+            .timeline-panel {
+                width: calc(40% - 12px);
+            }
+            .timeline-date {
+                max-width: calc(30% - 12px);
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    
+    ul.timeline {
+        &::before {
+            left: 40px;
+        }
+        li {
+            .timeline-panel {
+                width: calc(100% - 75px);
+            }
+            .tl-circ {
+                top: 12px;
+                left: 34px;
+                margin-left: -6px;
+            }
+            .timeline-date {
+                max-width: calc(60% - 75px);
+                float: right !important;
+                margin: 0 20% 0 0!important;
+            }
+        }
+        & > li {
+            & > .timeline-panel {
+                float: right;
+                &::before {
+                    border-left-width: 0;
+                    border-right-width: 15px;
+                    border-right-color: white;
+                    left: -16px;
+                    right: auto;
+                }
+                &::after {
+                    border-left-width: 0;
+                    border-right-width: 14px;
+                    border-right-color: $event-background-color;
+                    left: -14px;
+                    right: auto;
+                }
+            }
+            & > .timeline-date {
+                &::before {
+                    border-left-width: 0;
+                    border-right-width: 15px;
+                    border-right-color: white;
+                }
+                &::after {
+                    border-left-width: 0;
+                    border-right-width: 14px;
+                    border-right-color: $date-background-color;
+                }
+            }
+            &.timeline-inverted {
+                & > .timeline-panel {
+                    &::before {
+                        border-right-color: white;
+                    }
+                    &::after {
+                        border-right-color: $inverted-event-background-color;
+                    }
+                }
+                & > .timeline-date {
+                    &::before {
+                        border-right-color: white;
+                    }
+                    &::after {
+                        border-right-color: $inverted-date-background-color;
+                    }
+                }
+            }
+        }
+    }
+  
+    .tl-heading {
+        text-align: left;
+    }
+}  

@@ -1,0 +1,20 @@
+- name: Prud'homme
+  firstname: Charles
+  id: Invité1
+  title: 
+  # img: Charles.jpeg
+  # thumbnail: Charles.jpeg
+  alt: Photo de Charles
+  topic: ""
+  description: ""
+
+- name: Cambazard
+  firstname: Hadrien
+  id: Invité2
+  title: 
+  # img: Hadrien.jpg
+  # thumbnail: Hadrien.jpg
+  alt: Photo d'Hadrien
+  topic: ""
+  description: ""
+  

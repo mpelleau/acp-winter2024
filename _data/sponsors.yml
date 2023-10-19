@@ -1,0 +1,69 @@
+# - name: Université Côte d'Azur
+#   img: UCA2.png
+#   website: http://univ-cotedazur.fr/fr
+#   alt: Université Côte d'Azur
+
+#- name: Université Nice Sophia-Antipolis
+#  img: uns.png
+#  website: http://unice.fr/
+#  alt: Université Nice Sophia-Antipolis
+
+# - name: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
+#   img: i3s.png
+#   website: http://i3s.unice.fr/
+#   alt: Laboratoire d'Informatique, Signaux et Systèmes de Sophia Antipolis
+
+#- name: Huawei
+#  img: huawei.png
+#  website: https://www.huawei.com/fr/
+#  alt: Huawei Technologies Co. Ltd.
+
+- name: AFPC
+  img: afpc.png
+  website: https://www.afpc-asso.org/
+  alt: Association Française pour la Programmation par Contraintes
+
+- name: ACP
+  img: acp.jpeg
+  website: https://www.a4cp.org/
+  alt: Association for Constraint Programming
+
+#- name: GDR RO
+#  img: gdrro.png
+#  website: http://gdrro.lip6.fr/
+#  alt: GDR Recherche Opérationnelle
+
+#- name: INRIA
+#  img: inria.png
+#  website: https://www.inria.fr/fr/centre-inria-sophia-antipolis-mediterranee
+
+#- name: Doriane
+#  img: doriane.png
+#  website: https://www.doriane.com/
+#  alt: Doriane - Research Software & Consulting
+
+#- name: Michelin
+#  img: michelin.png
+#  website: https://www.michelin.fr/
+#  alt: Michelin France - Pneus et services pour une mobilité durable
+
+#- name: GDR IA
+#  img: gdria.png
+#  website: https://www.gdria.fr/
+#  alt: Groupe de Recherche en Intelligence Artificielle
+#  style: "background: url(/jfpc_jiaf_2020/images/sponsor/gdria-fond.png); background-size: contain;"
+
+#- name: AFIA
+#  img: afia.png
+#  website: https://afia.asso.fr/
+#  alt: Association Française pour l'Intelligence Artificielle
+
+# - name: Cosling
+#   img: cosling.png
+#   website: https://www.cosling.com/fr
+#   alt: Cosling - Microservices d'optimisation sous contraintes
+
+#
+#- name: Name
+#  img: TBD.jpg
+#  website: Website

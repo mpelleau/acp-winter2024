@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* TOC – Color Variables
+
+- Basics
+- Corporate Identity Colorpalette
+- Foundation Color Variables
+- Grey Scale
+- Topbar-Navigation
+- Footer
+- Code
+
+*/
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color:       	#111;
+$body-font-color: 	$text-color;
+$body-bg: 			#fdfdfd;
+
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1: #222f3e;
+$ci-2: #2e86de;
+$ci-3: #4c6a99;		
+$ci-6: #777;
+
+$ci-4: #E27A3F;
+$ci-5: #DF4949;
+$ci-7: #2b2b2b;
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $ci-1;
+$secondary-color: $ci-2;
+$tertiary-color: $ci-3;
+$muted-color: $ci-6;
+$alert-color: $ci-5;
+$success-color: $ci-2;
+$warning-color: $ci-4;
+$info-color: $ci-1;
+
+$light-color: #e1e1e1;
+
+
+/* Timeline colors
+------------------------------------------------------------------- */
+
+$event-background-color: $light-color;
+$event-color: white;
+$inverted-event-background-color: $light-color;
+$inverted-event-color: white;
+
+$date-color: white;
+$date-background-color: $secondary-color;
+$inverted-date-color: white;
+$inverted-date-background-color: $secondary-color;
+
+$line-color: $light-color;
+$circle-color: $secondary-color;
+$circle-border-color: $secondary-color;
+
+/* Grey Scale
+------------------------------------------------------------------- */
+
+$grey-1: #E4E4E4;
+$grey-2: #D7D7D7;
+$grey-3: #CBCBCB;
+$grey-4: #BEBEBE;
+$grey-5: #A4A4A4;
+$grey-6: #979797;
+$grey-7: #8B8B8B;
+$grey-8: #7E7E7E;
+$grey-9: #646464;
+$grey-10: #575757;
+$grey-11: #4B4B4B;
+$grey-12: #3E3E3E;
+$grey-13: #313131;
+$grey-14: #242424;
+$grey-15: #171717;
+$grey-16: #0B0B0B;
+
+
+
+/* Topbar-Navigation
+------------------------------------------------------------------- */
+
+$topbar-link-bg: #fff;
+$topbar-bg-color: #fff;
+
+$topbar-dropdown-toggle-color: $ci-1;
+
+$topbar-link-color: $ci-6;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #fff;
+$topbar-link-color-active-hover: #fff;
+
+$topbar-dropdown-label-color: $ci-2;
+$topbar-dropdown-link-bg-hover: $ci-1;
+
+$topbar-link-bg-active: $ci-6; // Active Navigation Link
+$topbar-link-bg-hover: $ci-6;
+$topbar-link-bg-active-hover: $ci-1;
+
+
+$topbar-dropdown-bg: #fff; // Background Mobile Navigation
+$topbar-dropdown-link-color: #fff;
+$topbar-dropdown-link-bg: $ci-2;
+
+$topbar-menu-link-color-toggled: $ci-1;
+$topbar-menu-icon-color-toggled: $ci-1;
+$topbar-menu-link-color: #000;
+$topbar-menu-icon-color: #000;
+$topbar-menu-link-color-toggled: $ci-6;
+$topbar-menu-icon-color-toggled: $ci-2;
+
+
+
+/* Footer
+------------------------------------------------------------------- */
+
+$footer-bg: $grey-8;
+$footer-color: #fff;
+$footer-link-color: $ci-7;
+
+
+$subfooter-bg: $grey-13;
+$subfooter-color: $grey-8;
+$subfooter-link-color: $grey-8;
+
+
+
+/* Code
+------------------------------------------------------------------- */
+
+$code-background-color: rgb(248, 248, 248);//scale-color($secondary-color, $lightness: 70%);
+$code-color: #5d7980;
+
+$highlight-background: #ffffff;
+$highlight-comment: #AED8E5;
+$highlight-comment-special: #999999;
+$highlight-deleted: #000000;
+$highlight-error: #a61717;
+$highlight-error-2: #aa0000;
+$highlight-error-background: #e3d2d2;
+$highlight-generic-deleted: #ffdddd;
+$highlight-generic-deleted-specific: #ffaaaa;
+$highlight-generic-error: #aa0000;
+$highlight-generic-heading: #999999;
+$highlight-generic-inserted: #ddffdd;
+$highlight-generic-inserted-specific: #aaffaa;
+$highlight-generic-output: #888888;
+$highlight-generic-prompt: #555555;
+$highlight-generic-traceback: #aa0000;
+$highlight-keyword-type: #B0EBEE;
+$highlight-literal-number: #009999;
+$highlight-literal-string: #88CFF2;
+$highlight-literal-string-regex: #009926;
+$highlight-literal-string-symbol: #990073;
+$highlight-name-attribut: #008080;
+$highlight-name-builtin: #0086B3;
+$highlight-name-builtin-pseudo: #999999;
+$highlight-name-class: #445588;
+$highlight-name-constant: #008080;
+$highlight-name-entity: #800080;
+$highlight-name-exception: #990000;
+$highlight-name-function: #990000;
+$highlight-name-namespace: #83FEE6;
+$highlight-name-tag: #000080;
+$highlight-name-variable: #008080;
+$highlight-subheading: #aaaaaa;
+$highlight-text-whitespace: #bbbbbb;

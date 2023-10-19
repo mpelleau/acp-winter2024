@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if page.language %}{{ page.language }}{% elsif site.language %}{{ site.language }}{% else %}en{% endif %}">
+
+    <style type="text/css">
+        /*INCLUDE MAIN CSS FILE*/
+        {% capture criticalcss %}
+            {% include critical.scss %}
+        {% endcapture %}
+        {{ criticalcss | scssify }}
+    </style>
+  
+    {% include _head.html %}
+
+    <body id="page-top" class="index" ondragstart="return false;" ondrop="return false;">
+
+        {% if page.conference %} 
+            {% include navigation_bar navigation = site.data.navigation_conf home = true link = page.link %}
+        {% else %}
+            {% include navigation_bar navigation = site.data.navigation home = true %} 
+        {% endif %}
+
+        <!-- Header -->
+        <header class = "image half" style="background-image: url('{{ site.url | append:site.baseurl }}/images/{{ page.image }}');">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-heading">{{ page.title }}</div>
+                    {% if page.subheadline %}<div class="subheadline">{{ page.subheadline }}</div>{% endif %}
+                </div> <!--
+                {% if page.copyright %}<div class="intro-info"><a href={{ page.website }} target="_blank">&copy; {{ page.copyright }}</a></div>{% endif %}
+                -->
+            </div>
+        </div>
+        </header>
+
+        <div class="event black-frame">
+            {{ content }}
+        </div>
+        
+    </body>
+
+    {% include _footer.html %}
+    {% include js %}
+</html>
