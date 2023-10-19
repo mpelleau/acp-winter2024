@@ -1,20 +1,77 @@
 - name: Prud'homme
   firstname: Charles
   id: Invité1
-  title: 
+  title: IMT Atlantique
   # img: Charles.jpeg
   # thumbnail: Charles.jpeg
   alt: Photo de Charles
+  website: https://www.imt-atlantique.fr/fr/personne/charles-prud-homme
   topic: ""
   description: ""
 
 - name: Cambazard
   firstname: Hadrien
   id: Invité2
-  title: 
+  title: Grenoble INP
   # img: Hadrien.jpg
   # thumbnail: Hadrien.jpg
   alt: Photo d'Hadrien
+  website: https://g-scop.grenoble-inp.fr/fr/laboratoire/cambazard-hadrien
   topic: ""
   description: ""
-  
+
+- name: Schaus
+  firstname: Pierre
+  id: Invité3
+  title: UCLouvain
+  # img: pierre.jpg
+  # thumbnail: pierre.jpg
+  alt: Photo de Pierre
+  website: https://www.info.ucl.ac.be/~pschaus/
+  topic: ""
+  description: ""
+
+- name: Libralesso
+  firstname: Luc
+  id: Invité4
+  title: Alma Scop
+  # img: luc.jpeg
+  # thumbnail: luc.jpeg
+  alt: Photo de Luc
+  website: https://librallu.gitlab.io/
+  topic: ""
+  description: ""
+
+- name: Gun
+  firstname: Tias
+  id: Invité5
+  title: KU Leuven
+  # img: Tias.png
+  # thumbnail: Tias.png
+  alt: Photo de Tias
+  website: https://people.cs.kuleuven.be/~tias.guns/
+  topic: ""
+  description: ""
+
+- name: Simonis
+  firstname: Helmut
+  id: Invité6
+  title: Insight center
+  # img: Helmut.png
+  # thumbnail: Helmut.png
+  alt: Photo de Helmut
+  website: https://www.insight-centre.org/our-team/helmut-simonis/
+  topic: ""
+  description: ""
+
+- name: Hebrard
+  firstname: Emmanuel
+  id: Invité7
+  title: LAAS CNRS
+  # img: Hebrard.jpg
+  # thumbnail: Hebrard.jpg
+  alt: Photo d'Emmanuel
+  website: https://homepages.laas.fr/ehebrard/
+  topic: ""
+  description: ""
+
