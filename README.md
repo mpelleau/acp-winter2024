@@ -1,4 +1,4 @@
-# Site pour les JFPC
+# Site pour l'ACP Winter school
 
 ## Génération du site
 
@@ -36,10 +36,10 @@ Il y a 4 types de pages possibles et se trouvent dans le dossier `_layout/` :
 - les éditions précédentes `_pages/editions.md`,
 - les informations pour la soumission d'article `_pages/soumission.md`
 - les sponsors `_pages/sponsors.md`,
-- des informations sur la conférence `_pages/about.md`,
-- des informations sur la ville de Nice `_pages/venue.md`,
-- comment venir à Nice `_pages/travel.md`,
-- et quelques adresses à Nice `_pages/booklet.md`.
+- des informations sur l'école `_pages/about.md`,
+- des informations sur Aussois et le Centre Paul Langevin `_pages/venue.md`,
+- comment venir à Aussois `_pages/travel.md`,
+- et quelques adresses à Aussois `_pages/booklet.md`.
 
 Certaines de ces pages ou parties de page sont générées automatiquement à partir de fichiers de données.
 Les fichiers de données se trouvent dans le dossier `_data`.
