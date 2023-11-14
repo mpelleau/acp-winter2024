@@ -2,36 +2,28 @@
 layout: page
 show_meta: false
 permalink: about/
-title: JFPC 2021
+title: ACP Winter School 2024
 published: true
 ---
 
-## Thème
+The [Association of Constraint Programming](http://cp2014.a4cp.org) organizes annual summer schools to augment and complement University teaching of CP, and to disseminate a core body of CP knowledge supporting the recognition of CP as a mature and relevant technology for use in industry.
 
-Depuis 2005, les Journées Francophones de Programmation par Contraintes (JFPC) sont le principal congrès de la communauté francophone travaillant sur les problèmes de satisfaction de contraintes (CSP), le problème de la satisfiabilité d'une formule logique propositionnelle (SAT) et/ou la programmation logique avec contraintes (CLP). La communauté de programmation par contraintes entretient également des liens avec la recherche opérationnelle (RO), l'analyse par intervalles et différents domaines de l'intelligence artificielle.
+The ACP Winter School 2024 will focus on applications of Constraints Programming.
+The school will provide an introduction to Constraint Programming and have a strong focus on applying Constraint Programming techniques.
+More specifically, on top of having technical lectures, the school will devote about 50% of the time to practical labs, where the participants learn to use Constraint Programming tools on practical problems.
 
-L'efficacité des méthodes de résolution et l'extension des modèles permettent à la programmation par contraintes de s'attaquer à des applications nombreuses et variées comme la logistique, l'ordonnancement de tâches, la conception d'emplois du temps, la conception en robotique, l'étude du génôme en bio-informatique, l'optimisation de pratiques agricoles, etc.
+We intend to invite the participants to solve a practical scheduling problem using [Choco solver](https://choco-solver.org/).
+Furthermore, we plan to use a platform named [Caseine](https://moodle.caseine.org/) developed in Grenoble.
+[Caseine](https://moodle.caseine.org/) is a Moodle-based learning platform developed for industrial engineering, computer sciences and mathematics.
+It allows to :
+1. automatically evaluate students programs and mathematical models ;
+2. to ensure the pedagogical follow up of the students ;
+3. to share contents between teachers through a large community of users.
 
-Les JFPC attirent une audience internationale, à travers la participation de chercheurs étrangers, principalement en provenance de Belgique, du Canada, des pays du Maghreb, et de l’Afrique francophone.
+Caseine is free for academics and it allows to use the solver Choco easily via an integrated developing environment.
 
-Patronnées par l'[Association Française pour la Programmation par Contraintes (AFPC)](https://www.afpc-asso.org/), les JFPC 2021 ont lieu du 22 au 24 Juin 2021 à l'Université Côte d'Azur et sont organisées par Philippe Vismara (président du [comité scientifique]({{ site.baseurl }}/team/#comité-scientifique)) et par Arnaud Malapert et Marie Pelleau (présidents du [comité d'organisation]({{ site.baseurl }}/team/#comité-dorganisation)).
+## Program Comittee
 
-## Mission
-
-Les JFPC se veulent un lieu convivial de rencontres, de discussions et d'échanges pour la communauté francophone, en particulier entre doctorants, chercheurs confirmés et industriels. L'importance des JFPC est reflétée par la part considérable (environ un tiers) de la communauté francophone dans la recherche mondiale dans ce domaine.
-
-Plusieurs partenaires locaux s’associeront à cette colocalisation : l'Université Côte d’Azur, le laboratoire I3S, INRIA.
-Cette conférence reçoit régulièrement le soutien de partenaires industriels situés en France.
-Cette année, nous rechercherons aussi le soutien d’entreprises situées dans la technopole Sophia Antipolis.
-
-Les actes de cette conférence seront rendus disponibles en accès ouvert : les actes des JFPC seront déposés sur HAL.
-
-## Grands axes du programme
-
-Plusieurs sessions thématiques et exposés invités, l'assemblée générale de l'AFPC, et deux événements sociaux seront proposés.
-Les sessions thématiques sont simplement des séries d'exposés correspondant aux articles acceptés par le comité de programme et qui seront publiés dans les actes de la conférence.
-Deux ou trois chercheurs renommés de la communauté francophones présentent leurs travaux lors des exposés invités.
-
-## Objectifs
-
-De par les langages et les algorithmes mis en oeuvre dans ses logiciels de résolution, l'intelligence artificielle et la programmation par contraintes permettent de s'attaquer à des domaines applicatifs nombreux et variés en recherche opérationnelle, en robotique ou en bio-informatique (étude du génome).
+- Margaux Nattaf , Univ. Grenoble Alpes, CNRS, Grenoble INP, G-SCOP, France.
+- Arnaud Malapert, Université Côte d'azur, CNRS, I3S, France.
+- Marie Pelleau, Université Côte d'azur, CNRS, I3S, France.
