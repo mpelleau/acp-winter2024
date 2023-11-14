@@ -2,42 +2,25 @@
 layout: page_image
 show_meta: false
 permalink: venue/
-title: Nice
+title: Aussois, France
 published: true
 image: header-nice.jpg
 copyright: Thomas Calvanico
 website: https://www.facebook.com/pg/ThomasCalvanicoPhotographe
 ---
 
-Située au sud de l’Europe et à l’extrême sud-est de la France, Nice est un point de jonction privilégié entre les Alpes, la Provence, la Corse et l’Italie.
-La ville occupe un site naturel remarquable au coeur de la Côte d'Azur. Elle s'est développée dans un large bassin ouvert au sud sur la Méditerranée et bordée d'est en ouest par une succession de collines boisées. En arrière-plan, s'élèvent les premiers sommets des contreforts alpins dont certains culminent à plus de 3000 m d'altitude, bien que 50 km à vol d'oiseau les séparent du littoral...
+The school will take place at [Centre Paul Langevin](https://www.caes.cnrs.fr/sejours/centre-paul-langevin-3-2/) in Aussois, region Auvergne-Rhône-Alpes, France.
+Aussois is a small Savoyard village facing south at the gateway of the Vanoise National Park at an altitude of 1500 meters.
+It is located in the French alps at 200 kilometers of Lyon and 150 kilometers of Grenoble.
+Around Lyon, all the necessary infrastructures can be found, including an international airport offering regular and affordable flights to Europe and North America.
 
-# [<i class="fas fa-globe" aria-hidden="true"></i> <i class="fas fa-map-marked-alt" aria-hidden="true"></i> Venir à Nice <i class="fas fa-plane" aria-hidden="true"></i> <i class="fas fa-train" aria-hidden="true"></i> <i class="fas fa-car" aria-hidden="true"></i> <i class="fas fa-biking" aria-hidden="true"></i> <i class="fas fa-walking" aria-hidden="true"></i>]({{ site.baseurl }}/venue/travel/)
-
-Des informations concernant les possibles trajets pour venir à Nice se trouvent [ici]({{ site.baseurl }}/venue/travel/).
-
-# [<i class="fas fa-map-marker-alt" aria-hidden="true"></i> Quelques Adresses]({{ site.baseurl }}/booklet/)
-
-Quelques adresses de bars et restaurants se trouvent [ici]({{ site.baseurl }}/booklet/).
-
-Les hôtels aux alentours du lieu de la conférence se trouvent [ici](https://goo.gl/maps/Kq7Ai2EjZcxjpUmn7){: target="_blank"}
-
-# Lieux de la conférence
-
-## Conférence
-  La conférence aura lieu sur le campus Trotabas.
-  La salle pour les JFPC est l'amphi 200.
-  Pour s'y rendre, vous pouvez utiliser la ligne 64 de bus arrêt "Clair de Lune" ou le tram 2 arrêt "Magnan".
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1Qhy58FImJ14aRj8EPpYE5WIgxZC0Lltg" style="width:100%;height:80vh"></iframe>
-
-<!--
-## Pôt d'accueil
-
-## Événement social
-
-## Gala
-  Le repas de gala sera quant à lui à XXX.
+To access the school, we plan to organize a bus shuttle from the Lyon « Part-Dieu » Train Station to the school location with a stop at the Lyon International Airport.
+For people who cannot use the shuttle, it is also possible to come to the school by taking a direct train from Paris to Modane (8km of Aussois) and to take a public shuttle to join Aussois.
 
 
-  Petit plan de Nice avec les différents lieux. -->
+https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7
+
+
+<img src="../images/venue/google-maps-centre-paul-langevin.png" width="250">
+
+![Drag Racing](../images/venue/google-maps-centre-paul-langevin.png)
