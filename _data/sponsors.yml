@@ -33,6 +33,11 @@
   website: https://www.univ-grenoble-alpes.fr/
   alt: Université Grenoble Alpes
 
+- name: UniCA
+  img: UCA.png
+  website: https://univ-cotedazur.fr/
+  alt: Université Côte d'Azur
+
 - name: GDR RADIA
   img: GDR-RADIA-logo.png
   website: https://gdr-radia.cnrs.fr/
