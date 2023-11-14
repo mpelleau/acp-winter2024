@@ -9,24 +9,22 @@ published: true
 Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 {:/comment}
 
+
+**Accommodation is included in the registration cost.** \\
+The registration cost also includes teaching materials, lunches and coffee breaks, and organized social events.
+
 The informations regarding the registration will be available soon.
 
-Accommodation is included in the registration cost.
+## Pricetable
 
-{% comment %}
-Pour vous inscrire, veuillez remplir le formulaire suivant :
-{% include form %}
-{% endcomment %}
+|                       | EARLY BIRDS  | LATE         |
+|                       | Before 01/03 | Before 15/03 |
+|:----------------------|--------------|--------------|
+| Student               | &euro;       | &euro;       |
+| CNRS Student/Employee | &euro;       | &euro;       |
+| Academic              | &euro;       | &euro;       |
+| Industrial            | &euro;       | &euro;       |
 
-<!--
-## Tarifs (provisoires)
+## Instructions for the registration
 
-|            | PRÉFÉRENTIEL   | MAJORÉ            | SUR PLACE         |
-|            | Jusqu'au 10/05 | Du 10/05 au 20/06 | Du 21/06 au 25/06 |
-|------------|----------------|-------------------|-------------------|
-| Étudiant   | 100            | 150               | 200               |
-| Académique | 150            | 200               | 250               |
-| Industriel | 200            | 250               | 300               |
-
-L'[AFPC](http://www.afpc-asso.org/web/) (Association Française pour la Programmation par Contraintes) offre l'adhésion 2021 à chaque participant aux JFPC 2021 qui le souhaite. Pour en bénéficier, n'oubliez pas de cocher la case correspondante lors de votre inscription.
--->
+Register early to avoid disappointment. Especially, if you require a visa to visit France, please register early, so that formalities can be handled in time.
