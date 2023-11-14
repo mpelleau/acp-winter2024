@@ -2,9 +2,14 @@
   url: "about/"
   side: left
 
-- title: "Program"
-  url: "agenda/"
+- title: "Schedule"
+  url: "schedule/"
   side: left
+
+- title: "Speakers"
+  url: "speakers/"
+  side: left
+
 
 - title: "Venue"
   url: "venue/"

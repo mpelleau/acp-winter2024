@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-permalink: agenda/
-title: Programme
+permalink: schedule/
+title: Schedule
 published: true
 ---
 
