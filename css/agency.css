@@ -33,10 +33,19 @@
 }
 
 .sponsor-img {
-    max-width: 100%; 
+    max-width: 70%; 
     min-width: auto !important; 
     width: auto !important;
     max-height: 7em;
+    /* filter: opacity(0.2); */
+    filter: grayscale(1);
+    /* filter: sepia(1); */
+}
+
+.sponsor-img:hover {
+    /* filter: opacity(1); */
+    filter: grayscale(0);
+    /* filter: sepia(0); */
 }
 
 .small {
