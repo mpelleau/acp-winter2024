@@ -23,7 +23,7 @@
                 {% endif %}
                     <ul class="home">
                         <li><a class="btn btn-xl" href="{{ site.url | append:site.baseurl }}/registration/">REGISTRATION</a></li>
-                        <!-- <li><a class="btn btn-xl" href="https://ci.mines-stetienne.fr/pfia2022/conferences/jfpc/">À l'année prochaine</a></li> 
+                        <!-- <li><a class="btn btn-xl" href="https://ci.mines-stetienne.fr/pfia2022/conferences/jfpc/">À l'année prochaine</a></li>
                         <li><a class="btn btn-xl" href="https://univ-cotedazur.zoom.us/s/89766294247">ZOOM</a></br>
                             <a class="btn" style="font-size:14px" href="{{ site.url | append:site.baseurl }}/connexions/">Besoin d'aide avec Zoom ou Gather Town ?</a>-->
                             <!-- </br></br>
@@ -36,7 +36,26 @@
     </header>
     <script src="{{ "/css/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
 
-    {% include _plan.html links = site.data.sitemap %}
+
+    <section id="about" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="bulletinfo">
+                        <li>
+                            <div class="bulletinfo-image conf">
+                                <img class="img-circle img-responsive" src="{{ site.url | append:site.baseurl }}/assets/img/icon-about.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8">
+                    <p>{{ content }}</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     {% include _speakers.html %}
     {% include _speakers_info.html %}
