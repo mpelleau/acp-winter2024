@@ -10,6 +10,10 @@
   url: "speakers/"
   side: left
 
+- title: "Labs"
+  url: "labs/"
+  side: left
+
 
 - title: "Venue"
   url: "venue/"
