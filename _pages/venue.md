@@ -4,9 +4,7 @@ show_meta: false
 permalink: venue/
 title: Aussois, France
 published: true
-image: header-nice.jpg
-copyright: Thomas Calvanico
-website: https://www.facebook.com/pg/ThomasCalvanicoPhotographe
+image: header-venue.jpg
 ---
 
 The school will take place at [Centre Paul Langevin](https://www.caes.cnrs.fr/sejours/centre-paul-langevin-3-2/) in Aussois, region Auvergne-Rhône-Alpes, France.
@@ -17,10 +15,4 @@ Around Lyon, all the necessary infrastructures can be found, including an intern
 To access the school, we plan to organize a bus shuttle from the Lyon « Part-Dieu » Train Station to the school location with a stop at the Lyon International Airport.
 For people who cannot use the shuttle, it is also possible to come to the school by taking a direct train from Paris to Modane (8km of Aussois) and to take a public shuttle to join Aussois.
 
-
-https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7
-
-
-<img src="../images/venue/google-maps-centre-paul-langevin.png" width="250">
-
-![Drag Racing](../images/venue/google-maps-centre-paul-langevin.png)
+[![Screenshot of google maps pinning the Centre Paul Langevin](../images/venue/google-maps-centre-paul-langevin.png)](https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7)
