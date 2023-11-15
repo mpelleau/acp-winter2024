@@ -47,7 +47,7 @@ Les fichiers de données se trouvent dans le dossier `_data`.
 
 | Page                    | Générée totalement ou en partie à partir de |
 |-------------------------|---------------------------------------------|
-| `_layout/home.md`       | `_data/speakers.yml`, `_data/sponsors.yml`  |
+| `_layout/home.html`     | `_data/speakers.yml`, `_data/sponsors.yml`  |
 | `_pages/agenda.md`      | `_data/programme.yml`                       |
 | `_pages/inscription.md` | `_data/inscription.yml`                     |
 | `_pages/speakers.md`    | `_data/speakers.yml`                        |
