@@ -31,33 +31,24 @@ Il y a 4 types de pages possibles et se trouvent dans le dossier `_layout/` :
 
 - la page d'accueil `index.html`,
 - le programme détaillé avec les dates importantes `_pages/agenda.md`,
-- les différents comités `_pages/comites.md`,
 - les informations et tarifs pour les inscirptions `_pages/inscription.md`,
-- les éditions précédentes `_pages/editions.md`,
-- les informations pour la soumission d'article `_pages/soumission.md`
 - les sponsors `_pages/sponsors.md`,
 - des informations sur l'école `_pages/about.md`,
-- des informations sur Aussois et le Centre Paul Langevin `_pages/venue.md`,
-- comment venir à Aussois `_pages/travel.md`,
-- et quelques adresses à Aussois `_pages/booklet.md`.
+- et des informations sur Aussois et le Centre Paul Langevin `_pages/venue.md`.
 
 Certaines de ces pages ou parties de page sont générées automatiquement à partir de fichiers de données.
 Les fichiers de données se trouvent dans le dossier `_data`.
 
-- `comites.yml` contient les membres de chacun des comités ;
-- `dates.yml` contient les dates importantes ;
-- `editions.yml` contient des liens vers les précédentes éditions ;
+- `inscription.yml` contient les champs du formulaire d'inscription ;
 - `navigation.yml` contient les éléments que l'on souhaite voir apparaître dans la barre de navigation ;
 - `programme.yml` contient le programme détaillé ;
-- `sitemap.yml` contient les éléments de la catégorie _plus d'infos_ de la page d'accueil ;
 - `speakers.yml` contient des informations sur les conférenciers invités qui figureront sur la page d'accueil ;
 - `sponsors.yml` contient des informations sur les sponsors.
 
-| Page                        | Générée totalement ou en partie à partir de                     |
-|-----------------------------|-----------------------------------------------------------------|
-| `_layout/home.md`           | `_data/sitemap.yml`, `_data/speakers.yml`, `_data/sponsors.yml` |
-| `_pages/agenda.md`          | `_data/dates.yml`, `_data/programme.yml`                        |
-| `_pages/comites.md`         | `_data/comites.yml`                                             |
-| `_pages/sponsors.md`        | `_data/sponsors.yml`                                            |
-| `_pages/editions.md`        | `_data/editions.yml`                                            |
-| `_pages/soumission.md`      | `_data/dates.yml`                                               |
+| Page                    | Générée totalement ou en partie à partir de |
+|-------------------------|---------------------------------------------|
+| `_layout/home.md`       | `_data/speakers.yml`, `_data/sponsors.yml`  |
+| `_pages/agenda.md`      | `_data/programme.yml`                       |
+| `_pages/inscription.md` | `_data/inscription.yml`                     |
+| `_pages/speakers.md`    | `_data/speakers.yml`                        |
+| `_pages/sponsors.md`    | `_data/sponsors.yml`                        |
