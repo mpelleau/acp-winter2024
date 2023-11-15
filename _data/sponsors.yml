@@ -1,8 +1,3 @@
-- name: Artificial Intelligence
-  img: AIJ-cover.jpeg
-  website: https://aij.ijcai.org/
-  alt: Artificial Intelligence Journal
-
 - name: ACP
   img: acp.png
   website: https://www.a4cp.org/
@@ -13,43 +8,33 @@
   website: https://www.cnrs.fr/fr
   alt: Centre National de la Recherche Scientifique
 
-- name: MIAI
-  img: logoMIAI-rvb.png
-  website: https://miai.univ-grenoble-alpes.fr/
-  alt: Multidisciplinary Institute in Artificial Intelligence
-
-- name: Persyval
-  img: persyval.png
-  website: https://persyval-lab.org/
-  alt: PERSYVAL-lab (Pervasive Systems and Algorithms)
-
 - name: GrenobleINP
-  img: Grenoble_INP.png
+  img: grenoble-inp.png
   website: https://www.grenoble-inp.fr/
   alt: Grenoble INP - UGA
 
 - name: UGA
-  img: Logo_Université_Grenoble_Alpes_2020.png
+  img: uga.png
   website: https://www.univ-grenoble-alpes.fr/
   alt: Université Grenoble Alpes
 
 - name: UniCA
-  img: UCA.png
+  img: uca.png
   website: https://univ-cotedazur.fr/
   alt: Université Côte d'Azur
 
-- name: GDR RADIA
-  img: GDR-RADIA-logo.png
-  website: https://gdr-radia.cnrs.fr/
-  alt: Groupe de Recherche en Intelligence Artificielle
-
 - name: GDR RO
-  img: logoGDRRO_LQ.png
+  img: gdr-ro.png
   website: http://gdrro.lip6.fr/
   alt: GDR Recherche Opérationnelle
 
+- name: GDR RADIA
+  img: gdr-radia.png
+  website: https://gdr-radia.cnrs.fr/
+  alt: Groupe de Recherche en Intelligence Artificielle
+
 - name: ROADEF
-  img: LOGO_ROADEF.png
+  img: roadef.png
   website: https://www.roadef.org/
   alt: Société française de recherche opérationnelle et d'aide à la décision
 
@@ -58,24 +43,17 @@
   website: https://www.afpc-asso.org/
   alt: Association Française pour la Programmation par Contraintes
 
+- name: Artificial Intelligence
+  img: aij.jpeg
+  website: https://aij.ijcai.org/
+  alt: Artificial Intelligence Journal
 
+- name: MIAI
+  img: miai.png
+  website: https://miai.univ-grenoble-alpes.fr/
+  alt: Multidisciplinary Institute in Artificial Intelligence
 
-#- name: Michelin
-#  img: michelin.png
-#  website: https://www.michelin.fr/
-#  alt: Michelin France - Pneus et services pour une mobilité durable
-
-#- name: AFIA
-#  img: afia.png
-#  website: https://afia.asso.fr/
-#  alt: Association Française pour l'Intelligence Artificielle
-
-# - name: Cosling
-#   img: cosling.png
-#   website: https://www.cosling.com/fr
-#   alt: Cosling - Microservices d'optimisation sous contraintes
-
-#
-#- name: Name
-#  img: TBD.jpg
-#  website: Website
+- name: Persyval
+  img: persyval.png
+  website: https://persyval-lab.org/
+  alt: PERSYVAL-lab (Pervasive Systems and Algorithms)

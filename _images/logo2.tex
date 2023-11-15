@@ -1,0 +1,77 @@
+\documentclass[border = 5mm]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{
+    decorations.markings,
+    decorations.pathmorphing,
+    decorations.text,
+    calc
+}
+\usepackage{fontspec}
+\setmainfont{Poppins}
+
+\newlength{\heightText}
+\settoheight{\heightText}{\hbox{\Huge\bfseries ACP Winter School 2024}}
+
+\def\h{4.25cm}
+\newlength{\up}
+\setlength{\up}{\h}
+\addtolength{\up}{-1\heightText}
+\newlength{\down}
+\setlength{\down}{\h}
+\addtolength{\down}{0.45\heightText}
+
+
+\def\r{2pt}
+\def\rs{1.5pt}
+
+\tikzset{petit/.style={fill, circle, inner sep = \rs}}
+\tikzset{vide/.style={inner sep = \rs}}
+\tikzset{grand/.style={draw, circle, inner sep = \r}}
+
+\begin{document}
+  \begin{tikzpicture}[scale = 0.85, line width = 2.5pt, white]
+
+    \fill[cyan!80!blue] (0, 0) circle ({\h + 0.75cm});
+    
+    \node [vide] (0) at (0, 0) {};
+    \foreach \l [count = \li] in {0.6, 1} {
+      \foreach \a [count = \i, evaluate = \i as \b using {int(Mod(\i, 2))}] in {0, 30, ..., 330} {
+        \node [vide] (\li\i) at (\a:{((2*sin(60) - 1)*\b + 1)*\l}) {};
+      }
+      \draw (\li1) -- (\li2) -- (\li3) -- (\li4) -- (\li5) -- (\li6) -- (\li7) -- (\li8) -- (\li9) -- (\li10) -- (\li11) -- (\li12) -- (\li1);
+    }
+
+    \foreach \a [count = \i, evaluate = \i as \j using {int(2*\i)}] in {30, 90, 150, 210, 270, 330} {
+      \node [vide] (3\j) at (\a:1.8) {};
+      \node [vide] (4\j) at (\a:2.2) {};
+      \node [vide] (5\j) at (\a:3) {};
+      \draw (0) -- (1\j) --(2\j) -- (3\j) -- (4\j) -- (5\j);
+      \draw (3\j) -- ++ ({\a-60}:0.5) node [petit] {};
+      \draw (3\j) -- ++ ({\a+60}:0.5) node [petit] {};
+      \draw (4\j) -- ++ ({\a-60}:0.5) node [petit] {};
+      \draw (4\j) -- ++ ({\a+60}:0.5) node [petit] {};
+    }
+    
+    \node [grand] at (0) {};
+    \foreach \l [count = \li] in {0.6, 1} {
+      \foreach \a [count = \i, evaluate = \i as \b using {int(Mod(\i, 2))}] in {0, 30, ..., 330} {
+        \node [grand] at (\li\i) {};
+      }
+    }
+
+    \foreach \a [count = \i, evaluate = \i as \j using {int(2*\i)}] in {30, 90, 150, 210, 270, 330} {
+      \node [grand] at (3\j) {};
+      \node [grand] at (4\j) {};
+      \node [grand] at (5\j) {};
+    }
+
+    \path [postaction={decorate, decoration={text align={center},raise={1mm},text along path, text={|\Huge\bfseries\color{white}|ACP~Winter}}}] (150:3.75) arc (150:30:3.75);
+
+    \path [postaction={decorate, decoration={text align={center},raise={1mm},text along path, text={|\Huge\bfseries\color{white}|School~2024}}}] (210:4.5) arc (210:330:4.5);
+
+    \draw (-30:4.25) arc (-30:30:4.25);
+    \draw (150:4.25) arc (150:210:4.25);
+
+  \end{tikzpicture}
+\end{document}
