@@ -25,5 +25,5 @@ Caseine is free for academics and it allows to use the solver Choco easily via a
 ## Program Comittee
 
 - Margaux Nattaf , Univ. Grenoble Alpes, CNRS, Grenoble INP, G-SCOP, France.
-- Arnaud Malapert, Université Côte d'azur, CNRS, I3S, France.
-- Marie Pelleau, Université Côte d'azur, CNRS, I3S, France.
+- Arnaud Malapert, Université Côte d'Azur, CNRS, I3S, France.
+- Marie Pelleau, Université Côte d'Azur, CNRS, I3S, France.
