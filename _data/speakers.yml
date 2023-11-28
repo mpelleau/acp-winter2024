@@ -1,77 +1,88 @@
 - name: Prud'homme
   firstname: Charles
   id: Invité1
-  title: IMT Atlantique
+  institution: IMT Atlantique
   # img: Charles.jpeg
   # thumbnail: Charles.jpeg
   alt: Photo de Charles
   website: https://www.imt-atlantique.fr/fr/personne/charles-prud-homme
-  topic: ""
+  title: ""
   description: ""
 
 - name: Cambazard
   firstname: Hadrien
   id: Invité2
-  title: Grenoble INP
+  institution: Grenoble INP
   # img: Hadrien.jpg
   # thumbnail: Hadrien.jpg
   alt: Photo d'Hadrien
   website: https://g-scop.grenoble-inp.fr/fr/laboratoire/cambazard-hadrien
-  topic: ""
+  title: ""
   description: ""
 
 - name: Schaus
   firstname: Pierre
   id: Invité3
-  title: UCLouvain
+  institution: UCLouvain
   # img: pierre.jpg
   # thumbnail: pierre.jpg
   alt: Photo de Pierre
   website: https://www.info.ucl.ac.be/~pschaus/
-  topic: ""
+  title: ""
   description: ""
 
 - name: Libralesso
   firstname: Luc
   id: Invité4
-  title: Alma Scop
+  institution: Alma Scop
   # img: luc.jpeg
   # thumbnail: luc.jpeg
   alt: Photo de Luc
   website: https://librallu.gitlab.io/
-  topic: ""
+  title: ""
   description: ""
 
 - name: Gun
   firstname: Tias
   id: Invité5
-  title: KU Leuven
+  institution: KU Leuven
   # img: Tias.png
   # thumbnail: Tias.png
   alt: Photo de Tias
   website: https://people.cs.kuleuven.be/~tias.guns/
-  topic: ""
+  title: ""
   description: ""
 
 - name: Simonis
   firstname: Helmut
   id: Invité6
-  title: Insight center
+  institution: Insight center
   # img: Helmut.png
   # thumbnail: Helmut.png
   alt: Photo de Helmut
   website: https://www.insight-centre.org/our-team/helmut-simonis/
-  topic: ""
+  title: ""
   description: ""
 
 - name: Hebrard
   firstname: Emmanuel
   id: Invité7
-  title: LAAS CNRS
+  institution: LAAS CNRS
   # img: Hebrard.jpg
   # thumbnail: Hebrard.jpg
   alt: Photo d'Emmanuel
   website: https://homepages.laas.fr/ehebrard/
-  topic: ""
+  title: ""
+  description: ""
+
+- name: Solnon
+  firstname: Christine
+  id: Invité8
+  institution: CITI Laboratory
+  # img: 
+  # thumbnail: 
+  alt: Photo de Christine
+  website: https://perso.citi.insa-lyon.fr/csolnon/
+  title: ""
   description: ""
 
