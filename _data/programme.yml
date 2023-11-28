@@ -1,210 +1,101 @@
-- day: Mardi 22 juin
+- time: 9h
+  nbcells: 3
   sessions:
-    - time: 11h-11h10
-      title: Ouverture des journées
-      room: Zoom
-    - time: 11h10-12h10
-      title: Exposé invité
-      author: Thomas schiex
-      id: invite1
-      titre: "From Constraint Networks to Cost Function Networks: feasibility, optimization and learning"
-      chair: Philippe Vismara
-      room: Zoom
-    - time: 13h30-14h
-      title: Café
-      room: Gather Town
-      notinform: true
-    - time: 14h-14h50
-      title: A
-      type: Jeunes Chercheurs
-      room: Zoom
-      chair: Laurent Simon
-      talks:
-        - title: Ddo, un cadre générique et performant pour l’optimisation à base de diagrammes de décision
-          authors: <b>Xavier Gillard</b>, Pierre Schaus et Vianney Coppé
-          link: JFPC_2021_final/JFPC_2021_A1.pdf
-        - title: Descente Agressive de la Borne en Optimisation sous Contraintes
-          authors: <b>Thibault Falque</b>, Christophe Lecoutre, Bertrand Mazure et Hugues Wattez
-          link: JFPC_2021_final/JFPC_2021_A2.pdf
-        - title: Contrainte de sac-à-dos à choix multiples dans les réseaux de fonctions de coûts
-          authors: <b>Pierre Montalbano</b>, Simon de Givry et George Katsirelos
-          link: JFPC_2021_final/JFPC_2021_A3.pdf
-    - time: 14h50-15h15
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 15h15-15h45
-      title: B
-      type: Exposés courts
-      room: Zoom
-      chair: Philippe Vismara
-      talks:
-        - title: Apprentissage d’arbres de décision optimaux grâce à la programmation par contrainte
-          authors: <b>Hélène Verhaeghe</b>, Siegfried Nijssen, Gilles Pesant, Claude-Guy Quimper et Pierre Schaus
-          link: JFPC_2021_final/JFPC_2021_B1.pdf
-        - title: Exploitation de l'apprentissage par renforcement avec la Programmation par Contraintes ou la Recherche Locale - Cas d'application dans l'industrie automobile
-          authors: <b>Valentin Antuori</b>, Emmanuel Hebrard, Marie-José Huguet, Siham Essodaigui et Alain Nguyen
-          link: JFPC_2021_final/JFPC_2021_B2.pdf
-        - title: Un solveur générique par intervalles pour le CSP différentio-algébrique
-          authors: Simon Rohou, Abderahmane Bedouhene, Gilles Chabert, Alexandre Goldsztejn, Luc Jaulin, Bertrand Neveu, Victor Reyes et <b>Gilles Trombettoni</b>
-          link: JFPC_2021_final/JFPC_2021_B3.pdf
-    - time: 15h45-16h15
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 16h15-17h05
-      title: C
-      type: Jeunes chercheurs
-      room: Zoom
-      chair: Simon de Givry
-      talks:
-        - title: Utiliser la PPC pour générer des structures de benzénoïdes en chimie théorique
-          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et <b>Adrien Varet</b>
-          link: JFPC_2021_final/JFPC_2021_C1.pdf
-        - title: Prise en compte de motifs et génération de structures de benzénoïdes
-          authors: Yannick Carissan, Denis Hagebaum-Reignier, Nicolas Prcovic, Cyril Terrioux et <b>Adrien Varet</b>
-          link: JFPC_2021_final/JFPC_2021_C2.pdf
-        - title: Stratégies de résolution anytime de problèmes de satisfaction de contraintes numériques
-          authors: <b>Thomas Richard de Latour</b>, Raphaël Chenouard et Laurent Granvilliers
-          link: JFPC_2021_final/JFPC_2021_C3.pdf
-    - time: 17h05-17h30
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 17h30-18h
-      title: "Débats \"pré-apéro\""
-      titre: "Contraintes globales trop ou trop peu ?"
-      id: debat1
-      room: Zoom
-    - time: 18h-19h
-      title: Apéro
-      room: Gather Town
-      notinform: true
-
-- day: Mercredi 23 juin
+  - title: Arrivée
+    nbcells: 6
+  - title: Filtering (E. Hebrard)
+    type: conf
+  - title: Search (P. Schauss)
+    type: conf
+  - title: TBA
+    type: conf
+  - title: TBA
+    type: conf
+- time: 10h30
   sessions:
-    - time: 13h30-14h
-      title: Café
-      room: Gather Town
-      notinform: true
-    - time: 14h-15h
-      title: Exposé invité
-      author: Claude-Guy Quimper (Université de Laval, Québec)
-      id: invite2
-      titre: "Ordonnancement sous contraintes : de la théorie à la pratique"
-      chair: Christian Bessière
-      room: Zoom
-    - time: 15h-15h15
-      title: Pause
-      room: Zoom
-      notinform: true
-    - time: 15h15-15h45
-      title: D
-      type: Exposés courts
-      room: Zoom
-      chair: Philippe Vismara
-      talks:
-        - title: "Tables segmentées : un outil de modélisation efficace pour le raisonnement par contraintes"
-          authors: Gilles Audemard, <b>Christophe Lecoutre</b> et Mehdi Maamar
-          link: JFPC_2021_final/JFPC_2021_D1.pdf
-        - title: "Abacus : Un nouvel encodage pour SAT"
-          authors: <b>Claudia Vasconcellos-Gaete</b>, Vincent Barichard et Frederic Lardeux
-          link: JFPC_2021_final/JFPC_2021_D2.pdf
-        - title: Parallélisme en acquisition de contraintes
-          authors: <b>Nadjib Lazaar</b>
-          link: JFPC_2021_final/JFPC_2021_D3.pdf
-    - time: 15h45-16h15
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 16h15-17h20
-      title: E
-      room: Zoom
-      chair: Frédéric Lardeux
-      talks:
-        - title: Adaptation des stratégies des solveurs SAT CDCL aux solveurs PB natifs
-          authors: <b>Daniel Le Berre</b> et Romain Wallon
-          link: JFPC_2021_final/JFPC_2021_E1.pdf
-        - title: Génération d'ensembles de modèles explorables par couplage de contraintes et de transformation de modèles
-          authors: <b>Théo Le Calvar</b>, Fabien Chhel, Frédéric Jouault, Frédéric Saubion et Eugene Syriani
-          link: JFPC_2021_final/JFPC_2021_E2.pdf
-        - title: Génération de donjons à l'aide de la programmation par contraintes
-          authors: <b>Gael Glorian</b>, Adrien Debesson, Sylvain Yvon-Paliot et Laurent Simon
-          link: JFPC_2021_final/JFPC_2021_E3.pdf
-        - title: Une approche basée sur l'ASP pour détecter des attracteurs dans les réseaux booléens circulaires
-          authors: <b>Tarek Khaled</b> et Belaid Benhamou
-          link: JFPC_2021_final/JFPC_2021_E4.pdf
-    - time: 17h20-17h45
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 17h45-18h15
-      title: "Débats \"pré-apéro\""
-      titre: "Comment présenter la PPC au grand public, aux entreprises, aux institutions ?"
-      url: https://semestriel.framapad.org/p/jfpc2021themes-9nnt
-      id: debat2
-      room: Zoom
-    - time: 18h15-19h15
-      title: Apéro
-      room: Gather Town
-      notinform: true
-
-- day: Jeudi 24 juin
+  - title: Coffee break
+    type: break
+  - title: Coffee break
+    type: break
+  - title: Coffee break
+    type: break
+  - title: Coffee break
+    type: break
+- time: 10h45
+  nbcells: 3
   sessions:
-    - time: 13h30-14h
-      title: Café
-      room: Gather Town
-      notinform: true
-    - time: 14h-15h05
-      title: F
-      type: Jeunes chercheurs
-      room: Zoom
-      chair: Arnaud Malapert
-      talks:
-        - title: Raffiner l'heuristique CHS à l'aide de bandits
-          authors: <b>Mohamed Sami Cherif</b>, Djamal Habet et Cyril Terrioux
-          link: JFPC_2021_final/JFPC_2021_F1.pdf
-        - title: Focus sur les heuristiques basées sur la pondération de contraintes
-          authors: <b>Hugues Wattez</b>, Frederic Koriche, Christophe Lecoutre, Anastasia Paparrizou et Sebastien Tabary
-          link: JFPC_2021_final/JFPC_2021_F2.pdf
-        - title: Perturbation des heuristiques de branchement dans la résolution de contraintes
-          authors: <b>Hugues Wattez</b>, Frederic Koriche et Anastasia Paparrizou
-          link: JFPC_2021_final/JFPC_2021_F3.pdf
-        - title: Tirage de solutions par ajout de contraintes tables aléatoires
-          authors: <b>Mathieu Vavrille</b>, Charlotte Truchet et Charles Prud'Homme
-          link: JFPC_2021_final/JFPC_2021_F4.pdf
-    - time: 15h05-15h35
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 15h35-16h40
-      title: G
-      type: Jeunes chercheurs
-      room: Zoom
-      chair: Gilles Audemard
-      talks:
-        - title: "Metrics : Mission Expérimentations"
-          authors: <b>Thibault Falque</b>, Romain Wallon et Hugues Wattez
-          link: JFPC_2021_final/JFPC_2021_G1.pdf
-        - title: Un bandit manchot pour combiner CHB et VSIDS
-          authors: <b>Mohamed Sami Cherif</b>, Djamal Habet et Cyril Terrioux
-          link: JFPC_2021_final/JFPC_2021_G2.pdf
-        - title: Des réfutations SAT aux réfutations Max-SAT
-          authors: <b>Matthieu Py</b>, Mohamed Sami Cherif et Djamal Habet
-          link: JFPC_2021_final/JFPC_2021_G3.pdf
-        - title: Approche basée sur la Relaxation pour la Fouille de Motifs Fermés et Diversifiés
-          authors: <b>Arnold Hien</b>, Samir Loudni, Noureddine Aribi, Yahia Lebbah, Mohammed Laghzaoui, Abdelkader Ouali et Albrecht Zimmermann
-          link: JFPC_2021_final/JFPC_2021_G4.pdf
-    - time: 16h40-17h10
-      title: Pause-Poster
-      room: Zoom
-      notinform: true
-    - time: 17h10-17h45
-      title: AG AFPC
-      info: Remise du prix jeune chercheur
-      room: Zoom
-    - time: 17h45-18h45
-      title: Clôture des journées
-      room: Gather Town
-      notinform: true
-
+  - title: Filtering (E. Hebrard)
+    type: conf
+  - title: Search (L. Librallesso)
+    type: conf
+  - title: TBA
+    type: conf
+  - title: TBA
+    type: conf
+- time: 12h15
+  sessions:
+  - title: Lunch break
+    type: break
+  - title: Lunch break
+    type: break
+  - title: Lunch break
+    type: break
+  - title: Packed lunch
+    type: break
+- time: 13h45
+  nbcells: 3
+  sessions:
+  - title: Caseine Labs (H. Cambazard)
+    type: lab
+  - title: Caseine Labs (H. Cambazard)
+    type: lab
+  - title: Social Event
+    nbcells: 4
+    type: gala
+  - title: Departure
+    nbcells: 4
+- time: 15h15
+  sessions:
+  - title: Coffee break
+    type: break
+  - title: Coffee break
+    type: break
+  - title: Coffee break
+    type: break
+- time: 15h30
+  nbcells: 3
+  sessions:
+  - title: Introduction to Constraint Programming (C. Prud'homme)
+    nbcells: 3
+    type: conf
+  - title: Caseine Labs (H. Cambazard)
+    type: lab
+  - title: Caseine Labs (H. Cambazard)
+    type: lab
+- time: 17h
+  nbcells: 3
+  sessions:
+  - title: ""
+    nbcells: 6
+  - title: ""
+    nbcells: 6
+  - title: Caseine Labs Discussion (All)
+    type: debat
+  - title: ""
+    nbcells: 6
+- time: 18h30
+  nbcells: 2
+  sessions:
+  - title: Welcome Reception
+    type: gala
+  - title: ""
+- time: 19h30
+  nbcells: 3
+  sessions:
+  - title: ""
+    nbcells: 2
+  - title: Conference Dinner
+    type: gala
+- time: 22h
+  sessions:
+  - title: ""

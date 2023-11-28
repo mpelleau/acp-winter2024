@@ -3,7 +3,52 @@
 
 <!-- Programme -->
 
+<table>
+    <tbody>
+        <tr>
+            <th class="day" width="5%"></th>
+            <th class="day" width="18%">Monday, March 25</th>
+            <th class="day" width="18%">Tuesday, March 26</th>
+            <th class="day" width="18%">Wednesday, March 27</th>
+            <th class="day" width="18%">Thursday, March 28</th>
+            <th class="day" width="18%">Friday, March 29</th>
+            <th class="day" width="5%"></th>
+        </tr>
 
+        {%- for agenda in program -%}
+        <tr>
+            {% if agenda.nbcells %}
+            {%- assign r = agenda.nbcells %}
+            {% else %}
+            {%- assign r = 1 %}
+            {% endif %}
+            <td class="hour" rowspan="{{ r }}">{{ agenda.time }}</td>
+            {%- for session in agenda.sessions -%}
+            <td 
+            {% if session.type %}
+            class="{{ session.type }}"
+            {% endif %}
+            {% if session.nbcells %}
+            rowspan="{{ session.nbcells | plus: r }}"
+            {% else %}
+            rowspan="{{ r }}"
+            {% endif %}
+            >
+            {{ session.title }}</td>
+            {%- endfor %}
+            <td class="hour" rowspan="{{ r }}">{{ agenda.time }}</td>
+        </tr>
+        {%- assign n = r | minus: 1 %}
+        {% assign range = (1..n) %}
+        {% for i in range %}
+        <tr></tr>
+        {% endfor %}
+        {%- endfor %}
+
+    </tbody>
+</table>
+
+<!--
 <div class="programme">
     <ul class="days">
         {%- for agenda in program -%}
@@ -76,3 +121,4 @@
     </div>
     {%- endfor %}
 </div>
+-->

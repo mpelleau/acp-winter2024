@@ -6,7 +6,10 @@ title: Schedule
 published: true
 ---
 
-Le programme détaillé peut être téléchargé [au format `.ics`]({% include link-asset asset="JFPC2021.ics" %}).
+<span class="anchor" id="programme"></span>
+{% include programme program = site.data.programme %}
+
+<!-- Le programme détaillé peut être téléchargé [au format `.ics`]({% include link-asset asset="JFPC2021.ics" %}). 
 
 <span class="anchor" id="programme"></span>
 
@@ -158,5 +161,4 @@ Le programme détaillé peut être téléchargé [au format `.ics`]({% include l
     </tr>
   </tbody>
 </table>
-
-{% include programme program = site.data.programme %}
+-->

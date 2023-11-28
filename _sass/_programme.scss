@@ -186,24 +186,24 @@ table {
     .break {
         background-color: $line-color;
     }
-    .invite, .invite a, .invite a:hover {
+    .invite {
         background-color: $secondary-color;
         color: white !important;
         font-weight: bolder;
     }
-    .session-young {
+    .conf {
         background-color: #3ec8ff;
     }
-    .session {
+    .lab {
         background-color: #4BC6B9;
     }
-    .ag {
+    .gala {
         background-color: #9afd9a;
     }
-    .coffee {
+    .talks {
         background-color: #ffefd3;
     }
-    .apero {
+    .other {
         background-color: #ffc167;
     }
     .debat {
