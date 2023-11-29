@@ -7,3 +7,5 @@ published: true
 ---
 
 List of speakers
+
+{% include speakers %}

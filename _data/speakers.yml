@@ -6,8 +6,8 @@
   # thumbnail: Charles.jpeg
   alt: Photo de Charles
   website: https://www.imt-atlantique.fr/fr/personne/charles-prud-homme
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Cambazard
   firstname: Hadrien
@@ -17,8 +17,8 @@
   # thumbnail: Hadrien.jpg
   alt: Photo d'Hadrien
   website: https://g-scop.grenoble-inp.fr/fr/laboratoire/cambazard-hadrien
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Schaus
   firstname: Pierre
@@ -28,8 +28,8 @@
   # thumbnail: pierre.jpg
   alt: Photo de Pierre
   website: https://www.info.ucl.ac.be/~pschaus/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Libralesso
   firstname: Luc
@@ -39,8 +39,8 @@
   # thumbnail: luc.jpeg
   alt: Photo de Luc
   website: https://librallu.gitlab.io/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Gun
   firstname: Tias
@@ -50,8 +50,8 @@
   # thumbnail: Tias.png
   alt: Photo de Tias
   website: https://people.cs.kuleuven.be/~tias.guns/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Simonis
   firstname: Helmut
@@ -61,8 +61,8 @@
   # thumbnail: Helmut.png
   alt: Photo de Helmut
   website: https://www.insight-centre.org/our-team/helmut-simonis/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Hebrard
   firstname: Emmanuel
@@ -72,8 +72,8 @@
   # thumbnail: Hebrard.jpg
   alt: Photo d'Emmanuel
   website: https://homepages.laas.fr/ehebrard/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 
 - name: Solnon
   firstname: Christine
@@ -83,6 +83,6 @@
   # thumbnail: 
   alt: Photo de Christine
   website: https://perso.citi.insa-lyon.fr/csolnon/
-  title: ""
-  description: ""
+  # title: ""
+  # description: ""
 

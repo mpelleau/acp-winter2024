@@ -24,7 +24,11 @@
                                             <i class="fa fa-plus fa-3x"></i>
                                         </div>
                                     </div>
+                                    {% if post.thumbnail %}
                                     <img src="{{ site.url | append:site.baseurl }}/images/speakers/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                    {% else %}
+                                    <img src="{{ site.url | append:site.baseurl }}/images/speakers/TBD.png" class="img-responsive img-centered" alt="{{ post.alt }}">
+                                    {% endif %}
                                 </a>
                             </div>
                             <div class="speaker-detail">
