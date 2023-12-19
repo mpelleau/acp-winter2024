@@ -1,15 +1,15 @@
 - time: 9h
   nbcells: 3
   sessions:
-  - title: Arrivée
-    nbcells: 6
+  - title: Arrival
+    nbcells: 7
   - title: Filtering (E. Hebrard)
     type: conf
   - title: Search (P. Schauss)
     type: conf
-  - title: TBA
-    type: conf
-  - title: TBA
+  - title: Caseine Labs (H. Cambazard)
+    type: lab
+  - title: Ethics (C. Solnon)
     type: conf
 - time: 10h30
   sessions:
@@ -28,11 +28,12 @@
     type: conf
   - title: Search (L. Librallesso)
     type: conf
-  - title: TBA
+  - title: CP Applications (H. Simonis)
     type: conf
-  - title: TBA
+  - title: Explanation techniques for CP (T. Gun)
     type: conf
 - time: 12h15
+  nbcells: 2
   sessions:
   - title: Lunch break
     type: break
@@ -40,13 +41,13 @@
     type: break
   - title: Lunch break
     type: break
-  - title: Packed lunch
+  - title: Lunch box
     type: break
 - time: 13h45
   nbcells: 3
   sessions:
-  - title: Caseine Labs (H. Cambazard)
-    type: lab
+  - title: Choco Solver (C. Prud'homme)
+    type: conf
   - title: Caseine Labs (H. Cambazard)
     type: lab
   - title: Social Event
@@ -65,8 +66,7 @@
 - time: 15h30
   nbcells: 3
   sessions:
-  - title: Introduction to Constraint Programming (C. Prud'homme)
-    nbcells: 3
+  - title: Introduction to Constraint Programming (H. Simonis)
     type: conf
   - title: Caseine Labs (H. Cambazard)
     type: lab
@@ -75,6 +75,8 @@
 - time: 17h
   nbcells: 3
   sessions:
+  - title: Solver Implementation (C. Prud'homme)
+    type: conf
   - title: ""
     nbcells: 6
   - title: ""
