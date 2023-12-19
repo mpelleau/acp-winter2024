@@ -21,7 +21,7 @@ The bus shuttle will depart from the Lyon « Part-Dieu » Train Station to the
 
 ## Come by your own
 
-It is also possible to come to the school by taking a direct train from Paris to Modane (8km of Aussois) and to take a public shuttle to join Aussois.
+Unfortunately, since the collapse in the Valée de la Maurienne, coming by train is difficult. We also want to warn you about the venur from Turin which goes through the Tunnel du Fréjus which is very expensive (around 45euros).
 
 ## Map
 [![Screenshot of google maps pinning the Centre Paul Langevin](../images/venue/google-maps-centre-paul-langevin.png)](https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7)
