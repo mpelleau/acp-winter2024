@@ -21,7 +21,10 @@ The bus shuttle will depart from the Lyon « Part-Dieu » Train Station to the
 
 ## Come by your own
 
-Unfortunately, since the collapse in the Valée de la Maurienne, coming by train is difficult. We also want to warn you about the venur from Turin which goes through the Tunnel du Fréjus which is very expensive (around 45euros).
+Unfortunately, since the collapse in the Valée de la Maurienne, coming by train is difficult. We also want to warn you about the venue from Turin by car which goes through the Tunnel du Fréjus. 
+Indeed, the fee from passing through the tunnel are very expensive (around 45euros).
+
+Therefore, we encourage every participant to meet us at Lyon to take the shuttle with us.
 
 ## Map
 [![Screenshot of google maps pinning the Centre Paul Langevin](../images/venue/google-maps-centre-paul-langevin.png)](https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7)
