@@ -1,12 +1,14 @@
 JEKYLL=bundle exec jekyll
 JOPTS= #--trace --verbose
-DEVCONF= #--config _config.yml,_config_dev.yml
 
 serve:
-	${JEKYLL} serve ${JOPTS} ${DEVCONF}
+	${JEKYLL} serve ${JOPTS}
+
+deploy:
+	${JEKYLL} build ${JOPTS} --destination ../school2024/
 
 draft:
-	${JEKYLL} serve ${JOPTS} ${DEVCONF} --draft --future
+	${JEKYLL} serve ${JOPTS} --draft --future
 
 clean:
 	rm -fr _site/
