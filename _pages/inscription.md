@@ -17,13 +17,12 @@ The informations regarding the registration will be available soon.
 
 ## Pricetable
 
-|                       | EARLY BIRDS  | LATE         |
-|                       | Before 01/03 | Before 15/03 |
+|                       | Shared Room  | Single Room  |
 |:----------------------|--------------|--------------|
-| Student               | &euro;       | &euro;       |
-| CNRS Student/Employee | &euro;       | &euro;       |
-| Academic              | &euro;       | &euro;       |
-| Industrial            | &euro;       | &euro;       |
+| Student               | 250&euro;    | 375&euro;    |
+| Academic              | 350&euro;    | 475&euro;    |
+| Industrial            | --           | 575&euro;    |
+| CNRS Student/Employee | 0&euro;      | --           |
 
 ## Instructions for the registration
 
