@@ -26,4 +26,11 @@ The informations regarding the registration will be available soon.
 
 ## Instructions for the registration
 
-Register early to avoid disappointment. Especially, if you require a visa to visit France, please register early, so that formalities can be handled in time.
+The number of places is limited, thus we advise to register early to avoid disappointment.
+
+Registrations are open until the **18th of February**. If there are still places available at this moment, registerations dates might be extended.
+
+To register, [follow this link](https://dr11.azur-colloque.fr/inscription/en/282/inscription).
+Once registered, please fill [this form](https://forms.gle/GAHCTrokJLuZuoLP9) to give additional and mandatory infomations (food restrictions, venue, roomate...).
+
+If you require a visa to visit France, please register early, so that formalities can be handled in time. Also, pay attention to the delay needed to obtain a visa and be sure to have enough time to get it.
