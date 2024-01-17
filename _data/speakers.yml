@@ -42,7 +42,7 @@
   # title: ""
   # description: ""
 
-- name: Gun
+- name: Guns
   firstname: Tias
   id: Invité5
   institution: KU Leuven
@@ -79,10 +79,9 @@
   firstname: Christine
   id: Invité8
   institution: CITI Laboratory
-  # img: 
-  # thumbnail: 
+  # img:
+  # thumbnail:
   alt: Photo de Christine
   website: https://perso.citi.insa-lyon.fr/csolnon/
   # title: ""
   # description: ""
-

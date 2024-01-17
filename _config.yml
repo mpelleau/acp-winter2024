@@ -4,7 +4,7 @@ date: "March 25-29, 2024"
 location: "Aussois<br>Centre Paul Langevin"
 description: "ACP Winter School 2024, March 25-29, Aussois, France"
 baseurl: "/winter2024" # the subpath of your site, e.g. /blog
-url: "http://school.a4cp.org"
+url: "https://school.a4cp.org"
 
 facebook:
   app_id:
