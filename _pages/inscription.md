@@ -13,8 +13,6 @@ Afficher ici la procédure pour les inscriptions ainsi que les tarifs
 **Accommodation is included in the registration cost.** \\
 The registration cost also includes teaching materials, lunches and coffee breaks, and organized social events.
 
-The informations regarding the registration will be available soon.
-
 ## Pricetable
 
 |                       | Shared Room  | Single Room  |
@@ -28,7 +26,8 @@ The informations regarding the registration will be available soon.
 
 The number of places is limited, thus we advise to register early to avoid disappointment.
 
-Registrations are open until the **18th of February**. If there are still places available at this moment, registerations dates might be extended.
+Registrations are open until the **18th of February**.
+If there are still places available at this moment, registrations dates might be extended.
 
 To register, [follow this link](https://dr11.azur-colloque.fr/inscription/en/282/inscription).
 Once registered, please fill [this form](https://forms.gle/GAHCTrokJLuZuoLP9) to give additional and mandatory infomations (food restrictions, venue, roomate...).
