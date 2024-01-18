@@ -34,7 +34,6 @@ table {
   border-spacing: 1;
   border-collapse: collapse;
   background: white;
-  border-radius: 10px;
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
@@ -48,17 +47,18 @@ table td, table th {
 }
 table thead tr {
   height: 30px;
-  //color: white;
-  background: $tertiary-color;
+  background-color: $secondary-color;
+  color: #fff;
 }
-table tbody tr {
-  height: 50px;
-}
+// table tbody tr {
+//   height: 50px;
+// }
 table tbody tr:last-child {
   border: 0;
 }
 table td, table th {
-  text-align: left;
+  text-align: center;
+  padding: 5px !important;
 }
 table td.l, table th.l {
   text-align: right;
@@ -72,7 +72,7 @@ table td.r, table th.r {
 
 
 .table100-head th{
-  font-family: OpenSans-Regular;
+  font-family: $secondary-font;
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -80,11 +80,11 @@ table td.r, table th.r {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f5f5f5;
+  background-color: lighten($secondary-color, 40%);
 }
 
 tbody tr {
-  font-family: OpenSans-Regular;
+  font-family: $secondary-font;
   font-size: 15px;
   // color: #808080;
   color: $primary-color;

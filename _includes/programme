@@ -3,7 +3,7 @@
 
 <!-- Programme -->
 
-<table>
+<table class="programme">
     <tbody>
         <tr>
             <th class="day" width="5%"></th>
