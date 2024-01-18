@@ -28,8 +28,9 @@
   thumbnail: pierre.jpg
   alt: Photo de Pierre
   website: https://www.info.ucl.ac.be/~pschaus/
-  # title: ""
+  title: "Search in Focus: The Yang to Modeling's Yin in Constraint Programming"
   # description: ""
+  resume: "Pierre Schaus obtained his Ph.D. from UCLouvain University in 2009. He completed a post-doc at Brown University, working with Pascal Van Hentenryck, and then joined the Dynadec startup, where he worked on Comet for two years before spending another two years at N-SIDE. In September 2012, he returned to academia as a professor of computer science at UCLouvain, where he teaches data structures, algorithms, and discrete optimization courses. He has contributed to the development of the Oscar CP solver and the Mini-CP solver. Alongside Laurent Michela and Pascal Van Hentenryck, he created the edX MOOC on Constraint Programming."
 
 - name: Libralesso
   firstname: Luc

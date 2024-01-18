@@ -9,17 +9,13 @@
       {%- endif %}
       {%- if post.title %}
         {%- assign title = post.title %}
-        {% comment %}
       {%- else %}
-        {%- assign title = "Lorem Ipsum" %}
-        {% endcomment %}
+        {%- assign title = "" %}
       {%- endif %}
       {%- if post.description %}
         {%- assign description = post.description %}
-        {% comment %}
       {%- else %}
-        {%- assign description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae nulla iaculis, lacinia nisl id, pellentesque lectus. Donec mi turpis, tincidunt vitae ultricies quis, venenatis sit amet massa. Donec dapibus orci turpis, at sodales mi bibendum eget. Nullam nisi neque, sodales eget mauris sit amet, tincidunt dignissim tortor. Duis aliquam elementum mauris, eu hendrerit sem elementum quis. Aliquam est nisl, bibendum vitae dui feugiat, commodo scelerisque dolor. In hac habitasse platea dictumst. Maecenas non lorem in magna imperdiet auctor.<br/>Curabitur sit amet luctus urna. Morbi eu massa arcu. Nam vel enim eu velit commodo lobortis. Nulla tincidunt magna non enim laoreet posuere. Nullam arcu neque, iaculis ut quam sit amet, fringilla efficitur ex. Morbi malesuada quis sapien nec lacinia. Proin in ex a orci sollicitudin mattis. Duis volutpat velit vitae dictum lacinia. Pellentesque eu sapien lectus. Aliquam sed vehicula lorem. Morbi in justo laoreet, eleifend eros et, blandit orci. Cras tempus facilisis purus, vel dignissim sapien pharetra vel. Cras sed nisl sed ante lobortis auctor. Integer a magna felis. Proin sagittis mattis elit. Proin sodales sollicitudin nulla, vel sagittis eros pharetra eu.<br/>Ut sit amet lacus non justo semper fermentum. Nam lorem nibh, tincidunt sed magna eget, volutpat rhoncus diam. Praesent viverra imperdiet justo ut vulputate. Morbi quis odio nunc. Sed rutrum, diam vitae pharetra egestas, leo nunc luctus eros, non dictum risus orci quis augue. Morbi ut magna id quam volutpat accumsan vitae non arcu. Fusce porttitor congue metus, eget porttitor felis tempus at. Maecenas iaculis viverra ornare." %}
-        {% endcomment %}
+        {%- assign description = "" %}
       {%- endif %}
       {%- assign id = post.firstname | append: "_" | append: post.name %}
     <h5 id="{{ id }}"></h5>
