@@ -1,8 +1,8 @@
 - time: 9h
   nbcells: 3
   sessions:
-  - title: Arrival
-    nbcells: 7
+  - title: 
+    nbcells: 3
   - title: Filtering (E. Hebrard)
     type: conf
   - title: Search (P. Schaus)
@@ -22,39 +22,66 @@
   - title: Coffee break
     type: break
 - time: 10h45
-  nbcells: 3
-  sessions:
-  - title: Filtering (E. Hebrard)
-    type: conf
-  - title: Search (L. Librallesso)
-    type: conf
-  - title: CP Applications (H. Simonis)
-    type: conf
-  - title: Explanation techniques for CP (T. Guns)
-    type: conf
-- time: 12h15
   nbcells: 2
   sessions:
+  - title: Filtering (E. Hebrard)
+    nbcells: 1
+    type: conf
+  - title: Search (L. Librallesso)
+    nbcells: 1
+    type: conf
+  - title: CP Applications (H. Simonis)
+    nbcells: 1
+    type: conf
+  - title: Explanation techniques for CP (T. Guns)
+    nbcells: 1
+    type: conf
+- time: 11h30
+  sessions:
+  - title: Departure from Part Dieu
+    nbcells: 1
+    type: partDieu dep
+- time: 12h15
+  nbcells: 1
+  sessions:
   - title: Lunch break
+    nbcells: 2
     type: break
   - title: Lunch break
+    nbcells: 2
     type: break
   - title: Lunch break
+    nbcells: 2
     type: break
   - title: Lunch box
+    nbcells: 1
     type: break
-- time: 13h45
-  nbcells: 3
+- time: 12h30
   sessions:
-  - title: Choco Solver (C. Prud'homme)
-    type: conf
-  - title: Caseine Labs (H. Cambazard)
-    type: lab
-  - title: Social Event
-    nbcells: 4
-    type: gala
+  - title: Departure from Lyon Saint Exupéry
+    nbcells: 3
+    type: exupery dep
+- time: 13h
+  sessions:
   - title: Departure
     nbcells: 4
+    type: exupery dep
+- time: 13h45
+  nbcells: 2
+  sessions:
+  - title: Choco Solver (C. Prud'homme)
+    nbcells: 1
+    type: conf
+  - title: Caseine Labs (H. Cambazard)
+    nbcells: 1
+    type: lab
+  - title: Social Event
+    nbcells: 5
+    type: gala
+- time: 15h
+  sessions:
+  - title: Arrival
+    type: exupery arr
 - time: 15h15
   sessions:
   - title: Coffee break
@@ -64,14 +91,23 @@
   - title: Coffee break
     type: break
 - time: 15h30
-  nbcells: 3
+  nbcells: 2
   sessions:
   - title: Introduction to Constraint Programming (H. Simonis)
     type: conf
+    nbcells: 1
   - title: Caseine Labs (H. Cambazard)
     type: lab
+    nbcells: 1
   - title: Caseine Labs (H. Cambazard)
     type: lab
+    nbcells: 1
+  - title: Arrival at Lyon Saint Exupéry
+    type: exupery arr
+- time: 16h30
+  sessions:
+  - title: Arrival at Part Dieu
+    type: partDieu arr
 - time: 17h
   nbcells: 3
   sessions:
