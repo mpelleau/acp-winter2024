@@ -26,7 +26,7 @@ The registration cost also includes teaching materials, lunches and coffee break
 
 The number of places is limited, thus we advise to register early to avoid disappointment.
 
-Registrations are open until the **18th of February**.
+Registrations are open until the **1st of March**.
 If there are still places available at this moment, registrations dates might be extended.
 
 To register, [follow this link](https://dr11.azur-colloque.fr/inscription/en/282/inscription).
