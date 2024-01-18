@@ -24,8 +24,8 @@
   firstname: Pierre
   id: Invité3
   institution: UCLouvain
-  img: pierre.jpg
-  thumbnail: pierre.jpg
+  img: Pierre.jpg
+  thumbnail: Pierre.jpg
   alt: Photo de Pierre
   website: https://www.info.ucl.ac.be/~pschaus/
   title: "Search in Focus: The Yang to Modeling's Yin in Constraint Programming"
@@ -36,8 +36,8 @@
   firstname: Luc
   id: Invité4
   institution: Alma Scop
-  img: luc.jpeg
-  thumbnail: luc.jpeg
+  img: Luc.jpeg
+  thumbnail: Luc.jpeg
   alt: Photo de Luc
   website: https://librallu.gitlab.io/
   title: "Search algorithms for combinatorial optimization: a guided tour"
