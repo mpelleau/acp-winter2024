@@ -18,9 +18,9 @@ Around Lyon, all the necessary infrastructures can be found, including an intern
 
 Our preferred way: reach the beautiful city of Lyon, and let us take care of the bus transfer to the Centre Paul Langevin.
 
-The bus shuttle will depart from the Lyon « Part-Dieu » Train Station on the 25th at 11:30 and from the Lyon Saint Exupéry International Airport at 12:30.
+The bus shuttle will depart from the Lyon « Part-Dieu » Train Station on the 25th at 11:00 and from the Lyon Saint Exupéry International Airport at 12:00.
 
-For the return trip, the shuttle will leave Aussois at 13:00 and arrive in Lyon at : 15:30 (Saint Exupéry airport) and 16:30 (« Part-Dieu » train  station). As there may be traffic, we advise you to plan a short delay between the arrival of the bus and your departure time.
+For the return trip, the shuttle will leave Aussois at 13:00 and arrive in Lyon at : 16:00 (Saint Exupéry airport) and 17:00 (« Part-Dieu » train  station). As there may be traffic, we advise you to plan a short delay between the arrival of the bus and your departure time.
 
 ## Come by your own
 
