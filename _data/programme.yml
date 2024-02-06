@@ -2,7 +2,7 @@
   nbcells: 3
   sessions:
   - title: 
-    nbcells: 3
+    nbcells: 2
   - title: Filtering (E. Hebrard)
     type: conf
   - title: Search (P. Schaus)
@@ -22,49 +22,47 @@
   - title: Coffee break
     type: break
 - time: 10h45
-  nbcells: 2
-  sessions:
-  - title: Filtering (E. Hebrard)
-    nbcells: 1
-    type: conf
-  - title: Search (L. Librallesso)
-    nbcells: 1
-    type: conf
-  - title: CP Applications (H. Simonis)
-    nbcells: 1
-    type: conf
-  - title: Explanation techniques for CP (T. Guns)
-    nbcells: 1
-    type: conf
-- time: 11h30
-  sessions:
-  - title: Departure from Part Dieu
-    nbcells: 1
-    type: partDieu dep
-- time: 12h15
   nbcells: 1
   sessions:
-  - title: Lunch break
+  - title: Filtering (E. Hebrard)
     nbcells: 2
-    type: break
-  - title: Lunch break
+    type: conf
+  - title: Search (L. Librallesso)
     nbcells: 2
-    type: break
-  - title: Lunch break
+    type: conf
+  - title: CP Applications (H. Simonis)
     nbcells: 2
-    type: break
-  - title: Lunch box
-    nbcells: 1
-    type: break
-- time: 12h30
+    type: conf
+  - title: Explanation techniques for CP (T. Guns)
+    nbcells: 2
+    type: conf
+- time: 11h
+  sessions:
+  - title: Departure from Part Dieu
+    type: partDieu dep
+- time: 12h
   sessions:
   - title: Departure from Lyon Saint Exupéry
-    nbcells: 3
+    nbcells: 5
     type: exupery dep
+- time: 12h15
+  nbcells: 2
+  sessions:
+  - title: Lunch break
+    nbcells: 1
+    type: break
+  - title: Lunch break
+    nbcells: 1
+    type: break
+  - title: Lunch break
+    nbcells: 1
+    type: break
+  - title: Lunch box
+    type: break
 - time: 13h
   sessions:
   - title: Departure
-    nbcells: 4
+    nbcells: 6
     type: exupery dep
 - time: 13h45
   nbcells: 2
@@ -102,12 +100,10 @@
   - title: Caseine Labs (H. Cambazard)
     type: lab
     nbcells: 1
+- time: 16h
+  sessions:
   - title: Arrival at Lyon Saint Exupéry
     type: exupery arr
-- time: 16h30
-  sessions:
-  - title: Arrival at Part Dieu
-    type: partDieu arr
 - time: 17h
   nbcells: 3
   sessions:
@@ -119,14 +115,17 @@
     nbcells: 6
   - title: Caseine Labs Discussion (All)
     type: debat
-  - title: ""
-    nbcells: 6
+  - title: Arrival at Part Dieu
+    nbcells: -2
+    type: partDieu arr
 - time: 18h30
   nbcells: 2
   sessions:
   - title: Welcome Reception
     type: gala
   - title: ""
+  - title: ""
+    nbcells: 4
 - time: 19h30
   nbcells: 3
   sessions:
