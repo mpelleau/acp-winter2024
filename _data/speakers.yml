@@ -29,9 +29,8 @@
   alt: Photo de Pierre
   website: https://www.info.ucl.ac.be/~pschaus/
   title: "Search in Focus: The Yang to Modeling's Yin in Constraint Programming"
-  # description: ""
-  resume: "Pierre Schaus obtained his Ph.D. from UCLouvain University in 2009. He completed a post-doc at Brown University, working with Pascal Van Hentenryck, and then joined the Dynadec startup, where he worked on Comet for two years before spending another two years at N-SIDE. In September 2012, he returned to academia as a professor of computer science at UCLouvain, where he teaches data structures, algorithms, and discrete optimization courses. He has contributed to the development of the Oscar CP solver and the Mini-CP solver. Alongside Laurent Michela and Pascal Van Hentenryck, he created the edX MOOC on Constraint Programming."
-
+  description: "This lecture explain the pivotal role of search strategies in Constraint Programming (CP).
+We start by unpacking the 'first fail' principle, a fundamental strategy shaping numerous advanced techniques in CP. Our focus then shifts to expert-designed search strategies, particularly in complex areas like scheduling and vehicle routing, highlighting their practical applications. We'll discuss strategies to accelerate searches, including dominance and symmetry breaking, essential for streamlining the search process. The lecture progresses to advanced successfull black box search methods like conflict-based, activity-based, impact-based, and weighted degree approaches, all derivatives of the first fail principle. We then cover restart-based methods addressing the heavy-tail phenomenon in CP searches and Large Neighborhood Search (LNS) for quickly finding high-quality solutions. Finally, we touch on search parallelization, exploring how multiple processors can be utilized for more efficient problem-solving in CP."
 - name: Libralesso
   firstname: Luc
   id: Invité4
@@ -41,8 +40,8 @@
   alt: Photo de Luc
   website: https://librallu.gitlab.io/
   title: "Search algorithms for combinatorial optimization: a guided tour"
-  # description: ""
-
+  description: "Search has been used for a long time and is present in multiple tools, including constraint programming, mixed integer programming, AI planning, branch-and-bounds of all sorts, and even shortest path algorithms.<br/> While each tool has its own way of conceptualizing search, they also share many similar components. The goal of this lecture is to identify these similar components, and present how they can be combined with each other.<br/> We will start with some simple examples (shortest path algorithms), then
+move on to some combinatorial optimization problems (a vehicle routing problem, a scheduling problem, and a 2D rectangle packing problem). For each of them, we will combine several search components and obtain state-of-the-art algorithms, showcasing how search can be used effectively."
 - name: Guns
   firstname: Tias
   id: Invité5
