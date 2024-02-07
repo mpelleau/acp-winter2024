@@ -72,8 +72,8 @@ move on to some combinatorial optimization problems (a vehicle routing problem, 
   thumbnail: Emmanuel.jpg
   alt: Photo d'Emmanuel
   website: https://homepages.laas.fr/ehebrard/
-  # title: ""
-  # description: ""
+  title: "Constraint Propaganda"
+  description: "We will spread the good word about constraint propagation and local consistencies. The former is the prime procedure to prune prohibitively large search trees in constraint programming. The latter is the formal notion used to describe what propagation does, irrespective of how it is done, and is essential to designing, analyzing and comparing constraint propagation algorithms. We will use several examples to introduce some relevant terminology as well as a few important principles, and hopefully persuade you of the significance of constraint propagation."
 
 - name: Solnon
   firstname: Christine
