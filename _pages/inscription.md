@@ -24,12 +24,10 @@ The registration cost also includes teaching materials, lunches and coffee break
 
 ## Instructions for the registration
 
-The number of places is limited, thus we advise to register early to avoid disappointment.
-
+The number of places is limited, thus we advise to register early to avoid disappointment.<br/>
 Registrations are open until the **1st of March**.
 If there are still places available at this moment, registrations dates might be extended.
 
-To register, [follow this link](https://dr11.azur-colloque.fr/inscription/en/282/inscription).
-Once registered, please fill [this form](https://forms.gle/GAHCTrokJLuZuoLP9) to give additional and mandatory infomations (food restrictions, venue, roomate...).
-
-If you require a visa to visit France, please register early, so that formalities can be handled in time. Also, pay attention to the delay needed to obtain a visa and be sure to have enough time to get it.
+1. To register, [follow this link](https://dr11.azur-colloque.fr/inscription/en/282/inscription).
+2. Once registered, please fill [this form](https://forms.gle/GAHCTrokJLuZuoLP9) to give additional and mandatory infomations (food restrictions, venue, roomate...).
+3. If you require a visa to visit France, please register early, so that formalities can be handled in time. Also, pay attention to the delay needed to obtain a visa and be sure to have enough time to get it.

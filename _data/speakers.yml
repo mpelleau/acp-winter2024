@@ -50,9 +50,9 @@ move on to some combinatorial optimization problems (a vehicle routing problem, 
   thumbnail: Tias.jpg
   alt: Photo de Tias
   website: https://people.cs.kuleuven.be/~tias.guns/
-  # title: ""
-  # description: ""
-
+  title: "Explainable Constraint Programming"
+  description: "Explainable constraint solving is concerned with <i>explaining</i> constraint (optimization) problems and their solutions. While having roots in the well-studied topic of explaining unsatisfiability, it is getting renewed attention as part of the wider eXplainable AI (XAI) field. This raises new challenges in terms of interpretability and actionability of explanations, as well as algorithmic challenges with regards to scalability, expressivity and preferences that must be considered.<br/> We will review two general types of explanations in XCP: deductive explanations and contrastive explanations, and provide a deeper view on techniques in these categories, including well established techniques like minimal unsatisfiable subsets and correction subsets, as well as newer techniques such as step-wise explanations, feasibility corrections, inverse optimisation techniques and more. The talk is supported by working implementations on top of the CPMpy library and includes live Python notebook demo's on nurse rostering problems.
+"
 - name: Simonis
   firstname: Helmut
   id: Invité6
