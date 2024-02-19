@@ -18,11 +18,6 @@
   website: https://www.univ-grenoble-alpes.fr/
   alt: Université Grenoble Alpes
 
-- name: UniCA
-  img: uca.png
-  website: https://univ-cotedazur.fr/
-  alt: Université Côte d'Azur
-
 - name: GDR RO
   img: gdr-ro.png
   website: http://gdrro.lip6.fr/
