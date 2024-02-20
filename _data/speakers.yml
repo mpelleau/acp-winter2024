@@ -6,8 +6,8 @@
   thumbnail: Charles.jpeg
   alt: Photo de Charles
   website: https://www.imt-atlantique.fr/fr/personne/charles-prud-homme
-  # title: ""
-  # description: ""
+  title: "Solver implementation + Introduction to Choco Solver"
+  description: "<i>Solver implementation</i><br/> The aim of this workshop is to design, from scratch, a minimalist constraint solver in Python. We will code everything needed to model and automatically solve two standard problems.<br/><i>Introduction to Choco Solver</i><br/>In this workshop, we will see how to get to grips with the choco-solver constraint programming library. We'll try to apply the concepts we've learned directly to problems of varying complexity."
 
 - name: Cambazard
   firstname: Hadrien
@@ -83,5 +83,5 @@ move on to some combinatorial optimization problems (a vehicle routing problem, 
   thumbnail: Christine.jpg
   alt: Photo de Christine
   website: https://perso.citi.insa-lyon.fr/csolnon/
-  # title: ""
+  title: "Can CP help us meet everyone's needs within the planet's resources?"
   # description: ""
