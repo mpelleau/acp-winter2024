@@ -105,19 +105,26 @@
   - title: Arrival at Lyon Saint Exupéry
     type: exupery arr
 - time: 17h
-  nbcells: 3
+  nbcells: 2
   sessions:
   - title: Solver Implementation (C. Prud'homme)
     type: conf
+    nbcells: 1
   - title: ""
-    nbcells: 6
-  - title: ""
-    nbcells: 6
   - title: Caseine Labs Discussion (All)
     type: debat
+    nbcells: 1
+  - title: ""
+    nbcells: 3
   - title: Arrival at Part Dieu
-    nbcells: -2
+    nbcells: -1
     type: partDieu arr
+- time: 18h
+  sessions:
+  - title: Savoyard aperitif
+    type: gala
+    nbcells: 2
+  - title: ""
 - time: 18h30
   nbcells: 2
   sessions:
@@ -129,10 +136,17 @@
 - time: 19h30
   nbcells: 3
   sessions:
-  - title: ""
-    nbcells: 2
+  - title: Dinner
+    type: break
+  - title: Savoyard dinner
+    type: gala
+  - title: Dinner
+    type: break
   - title: Conference Dinner
     type: gala
 - time: 22h
   sessions:
+  - title: ""
+  - title: ""
+  - title: ""
   - title: ""
