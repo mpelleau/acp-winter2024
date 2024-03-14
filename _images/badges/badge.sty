@@ -1,0 +1,50 @@
+\usepackage{tikz}
+
+\tikzset{
+  pics/badge/.style={code={
+    \tikzset{badge/.cd,#1}%
+    \def\arg##1{\pgfkeysvalueof{/tikz/badge/##1}}%
+    
+    \def\n{\arg{nom}}
+    \def\p{\arg{pnom}}
+    \def\c{\arg{pays}}
+    \def\i{\arg{inst}}
+    \def\o{\arg{orga}}
+    \def\r{\arg{rest}}
+    \def\a{\arg{act}}
+
+    \draw [lightgray] (0, 0) rectangle ++ (10.5, 6.5);
+
+    \draw [opacity = 0.2] (5.25, 3.25) node {\includegraphics[height = 5cm]{../../assets/img/logo.png}};
+
+    \draw (5.25, 3.75) node {\Large\bfseries\p~~\n};
+    \draw (5.25, 2.5) node {\large\i};
+    \draw (5.25, 2) node {\large\c};
+
+    \ifnum\a=1
+    \draw (0.25, 0.5) node [anchor = south west] {\includegraphics[height = 1.5cm]{raquettes.pdf}};
+    \else
+    \ifnum\a=2
+    \draw (0.25, 0.5) node [anchor = south west] {\includegraphics[height = 1.5cm]{city.pdf}};
+    \fi
+    \fi
+
+    \ifnum\o=1
+    \fill [red!80!black] (0, 0) rectangle ++ (10.5, 0.5);
+    \fill [red!80!black] (0, 6) rectangle ++ (10.5, 0.5);
+    \fi
+
+    \ifnum\r=1
+    \fill [green!80!black] (9, 0.6) rectangle ++ (1, 1);
+    \else
+    \ifnum\r=2
+    \fill [yellow!80!black] (9, 0.6) rectangle ++ (1, 1);
+    \else
+    \ifnum\r=3
+    \fill [red!80!black] (9, 0.6) rectangle ++ (1, 1);
+    \fi
+    \fi
+    \fi
+
+  }}, badge/.cd, param/.initial = {}, label/.initial = {}, nom/.initial = {}, pnom/.initial = {}, inst/.initial = {}, pays/.initial = {}, orga/.initial = 0, orga/.default = 1, rest/.initial = 0, act/.initial = 0
+}
