@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import csv
-import os
 
 input = "participants.csv"
 badges = []

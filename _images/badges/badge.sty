@@ -1,4 +1,5 @@
 \usepackage{tikz}
+\usepackage{ifthen}
 
 \tikzset{
   pics/badge/.style={code={
@@ -15,11 +16,16 @@
 
     \draw [lightgray] (0, 0) rectangle ++ (10.5, 6.5);
 
-    \draw [opacity = 0.2] (5.25, 3.25) node {\includegraphics[height = 5cm]{../../assets/img/logo.png}};
+    \draw [opacity = 0.4] (5.25, 3.25) node {\includegraphics[height = 5cm]{../../assets/img/logo.png}};
 
-    \draw (5.25, 3.75) node {\Large\bfseries\p~~\n};
-    \draw (5.25, 2.5) node {\large\i};
-    \draw (5.25, 2) node {\large\c};
+    \ifthenelse{\equal{\i}{}}{
+      \draw (5.25, 4) node {\huge\bfseries\p};
+      \draw (5.25, 3) node {\huge\bfseries\n};
+    }{
+      \draw (5.25, 3.75) node {\huge\bfseries\p~~\n};
+      \draw (5.25, 2.5) node {\Large\i};
+      \draw (5.25, 2) node {\Large\c};
+    }
 
     \ifnum\a=1
     \draw (0.25, 0.5) node [anchor = south west] {\includegraphics[height = 1.5cm]{raquettes.pdf}};
