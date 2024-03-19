@@ -30,4 +30,7 @@ Indeed, the fees for passing through the tunnel are very expensive (around 45eur
 Therefore, we encourage every participant to meet us at Lyon to take the shuttle with us.
 
 ## Map
-[![Screenshot of google maps pinning the Centre Paul Langevin](../images/venue/google-maps-centre-paul-langevin.png)](https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7)
+
+<iframe src="https://www.google.com/maps/d/embed?mid=19BOSRlja_itjWqb1HWMEEgcunJgc2Yw&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
+
+<!-- [![Screenshot of google maps pinning the Centre Paul Langevin](../images/venue/google-maps-centre-paul-langevin.png)](https://maps.app.goo.gl/QfiZt1xNeKqVtaRe7) -->
