@@ -61,7 +61,7 @@ move on to some combinatorial optimization problems (a vehicle routing problem, 
   thumbnail: Helmut.png
   alt: Photo de Helmut
   website: https://www.insight-centre.org/our-team/helmut-simonis/
-  title: "Introduction to CP + CP applications"
+  title: "Introduction to Constraint Programming + CP applications"
   description: "<i>Introduction to Constraint Programming</i><br/>This talk we will give an overview of the main ideas behind Constraint Programming, and show the basics of modelling and constraint solving. We will see how complex combinatorial problems can be easily described with Constraint Programming, while back-end constraint engines use different reasoning techniques to find solutions efficiently.<br/><i>CP applications</i><br/>In this session we will give an overview of the wide variety of applications that have been developed using Constraint Programming. We will present some recent projects in more detail, and show where one can find more information about specific application domains. "
 - name: Hebrard
   firstname: Emmanuel
