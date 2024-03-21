@@ -111,9 +111,8 @@
     type: conf
     nbcells: 1
   - title: ""
-  - title: Caseine Labs Discussion (All)
-    type: debat
-    nbcells: 1
+  - title: ""
+    nbcells: 3
   - title: ""
     nbcells: 3
   - title: Arrival at Part Dieu
@@ -130,7 +129,6 @@
   sessions:
   - title: Welcome Reception
     type: gala
-  - title: ""
   - title: ""
     nbcells: 4
 - time: 19h30
