@@ -17,8 +17,8 @@
   thumbnail: Hadrien.jpg
   alt: Photo d'Hadrien
   website: https://g-scop.grenoble-inp.fr/fr/laboratoire/cambazard-hadrien
-  # title: ""
-  # description: ""
+  title: "Caseine Labs"
+  description: "The practical sessions will illustrate the fondamentals ideas of the Filtering and Search classes. We will work on a number of problems related to car sequencing, traveling salesman problem and bin-packing to get of better understanding of local consistencies and search techniques. We propose to implement at least one propagator for a global constraint (AtMostSeqCard or WeightedAllDifferent) and one search heuristic. Additionaly, a number of fun quiz (reasoning by hand) are proposed to clarify two fondamental consistency notions: arc consistency and bound consistency."
 
 - name: Schaus
   firstname: Pierre

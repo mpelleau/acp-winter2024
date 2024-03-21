@@ -26,4 +26,4 @@ To install the Caseine plugin on Eclipse, follow the instructions on these links
 
 Here is a [test activity](https://moodle.caseine.org/mod/vpl/view.php?id=70920) that you can use to check your installation.
 
-Finally, we will use the Choco Solver that is available on the following website: https://choco-solver.org/
+Finally, we will use the Choco Solver that is available [here](https://choco-solver.org/).
