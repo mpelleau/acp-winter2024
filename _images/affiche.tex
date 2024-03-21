@@ -1,0 +1,21 @@
+\documentclass[border = 5mm]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{
+    decorations.markings,
+    decorations.pathmorphing,
+    decorations.text,
+}
+\usepackage{fontspec}
+\setmainfont{Poppins}
+
+\begin{document}
+  \fontsize{38}{47}
+  \begin{tikzpicture}
+
+    \draw (0, 0) node {\includegraphics[height = 8cm]{../assets/img/logo.png}};
+
+    \draw [black] (0, -6) node {\textbf{ACP Winter School 2024}};
+
+  \end{tikzpicture}
+\end{document}
